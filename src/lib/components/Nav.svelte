@@ -4,7 +4,7 @@
     // import { page } from '$app/stores';
 
     const navigation = [
-        { href: '/accueil', label: 'Accueil' },
+        { href: '/', label: 'Accueil' },
         { href: '/entreprise', label: 'Entreprise' },
         { href: '/offres', label: 'Offres' },
         { href: '/contact', label: 'Contact' }

@@ -53,4 +53,7 @@ Faire une priorité sur la présentation des fonctions de l'application :
     > statistiques 
 
 
-Faire un repo, faire 2 branches  / envoyer sur vercel et ajouter alan 
+#### Dépendences 
+
+    > tailwindcss
+    > flowbite-svelte

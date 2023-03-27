@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+ import ArticleOne from "$lib/components/ArticleOne.svelte";
+	import ArticleTwo from "$lib/components/ArticleTwo.svelte";
+ import HomeBanners from "$lib/components/HomeBanners.svelte";
+</script>
+
+
+<HomeBanners />
+
+<ArticleOne />
+
+<ArticleTwo />
+  
+
+
