@@ -3,69 +3,72 @@
 	import { Img } from 'flowbite-svelte';
 	import { Heading, Span } from 'flowbite-svelte';
 
-	const imagesTab = ['/siteappdemo1.png', '/siteappdemo2.png'];
+	const imagesTab = [
+		'/appStats1.png',
+		'/appStats2.png',
+		'/appStats3.png',
+		'/appStats4.png',
+		'/appStats5.png'
+	];
+
+	const sectionsTab = [
+		{
+			title: 'Stats',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
+		},
+		{
+			title: 'Ventes en attente',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
+		},
+		{
+			title: 'Ventes cloturées',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
+		},
+		{
+			title: 'Les commentaires ',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
+		},
+		{
+			title: 'Statistiques Produits',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
+		}
+	];
+
+	let selectedImage = 0;
 
 	function updateSelectedImage(index) {
 		return (selectedImage = index);
 	}
-	let selectedImage = 0;
+
 </script>
 
-<section class="w-full h-screen flex flex-col items-center justify-center">
+<section class="w-full h-screen flex  items-center justify-center">
 	<div class="flex flex-col py-5 w-8/12 center">
 		<Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
-			><Span gradient>Les Statistiques</Span> </Heading
-		>
+			><Span gradient>Les Statistiques</Span>
+		</Heading>
 		<div class="flex py-5 w-full center">
 			<div class="w-1/4">
 				<Accordion>
-					<div on:click={() => updateSelectedImage(0)} on:keydown>
-						<AccordionItem>
-							<span slot="header">My Header 1</span>
-							<p class="mb-2 text-gray-500 dark:text-gray-400">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus
-								sint explicabo ...
-							</p>
-						</AccordionItem>
-					</div>
-					<div on:click={() => updateSelectedImage(1)} on:keydown>
-						<AccordionItem>
-							<span slot="header">My Header 2</span>
-							<p class="mb-2 text-gray-500 dark:text-gray-400">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus
-								sint explicabo ...
-							</p>
-							<p class="mb-2 text-gray-500 dark:text-gray-400">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus
-								sint explicabo ...
-							</p>
-							<p class="mb-2 text-gray-500 dark:text-gray-400">
-								Learn more about these technologies:
-							</p>
-							<ul class="list-disc pl-5 dark:text-gray-400 text-gray-500">
-								<li>
-									<a
-										href="/"
-										target="_blank"
-										rel="noreferrer"
-										class="text-blue-600 dark:text-blue-500 hover:underline">Lorem ipsum</a
-									>
-								</li>
-								<li>
-									<a
-										href="https://tailwindui.com/"
-										rel="noreferrer"
-										target="_blank"
-										class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a
-									>
-								</li>
-							</ul>
-						</AccordionItem>
-					</div>
+					{#each sectionsTab as section, index}
+						<div on:click={() => updateSelectedImage(index)} on:keydown>
+							<AccordionItem>
+								<span slot="header">{section.title}</span>
+								<p class="mb-2 text-gray-500 dark:text-gray-400">
+									{section.content}
+								</p>
+							</AccordionItem>
+						</div>
+					{/each}
 				</Accordion>
 			</div>
 			<div class="w-3/4">
-				<Img src={imagesTab[selectedImage]} alt="sample 1" class="rounded-lg" />
+				<Img src={imagesTab[selectedImage]} alt="carrousel" class="rounded-lg" />
 			</div>
 		</div>
 	</div>

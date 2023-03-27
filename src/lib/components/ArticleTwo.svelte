@@ -8,7 +8,7 @@
         >
           <img
             alt="Party"
-            src="/siteappdemo2.png"
+            src="/appStats1.png"
             class="absolute inset-0 h-full w-full border-4 border-blue-600 shadow-sm shadow-purple-600 "
           />
         </div>

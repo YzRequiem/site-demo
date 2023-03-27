@@ -5,7 +5,7 @@
           <div class="relative h-64 sm:h-80 lg:h-full">
             <img
               alt="House"
-              src="\siteappdemo1.png"
+              src="\appStats1.png"
               class="absolute inset-0 h-full w-full "
             />
           </div>
