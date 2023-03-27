@@ -47,17 +47,25 @@
 
 </script>
 
-<section class="w-full h-screen flex  items-center justify-center">
+<style>
+
+.min-w-200 {
+	min-width: 200px;
+}
+
+</style>
+
+<section class="w-full flex  items-center justify-center">
 	<div class="flex flex-col py-5 w-8/12 center">
 		<Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
 			><Span gradient>Les Statistiques</Span>
 		</Heading>
-		<div class="flex py-5 w-full center">
-			<div class="w-1/4">
-				<Accordion>
+		<div class="flex py-5 w-full center flex-wrap">
+			<div class="w-full min-w-200 xl:w-1/4 ">
+				<Accordion class="mr-5 min-w-200">
 					{#each sectionsTab as section, index}
 						<div on:click={() => updateSelectedImage(index)} on:keydown>
-							<AccordionItem>
+							<AccordionItem class="  ">
 								<span slot="header">{section.title}</span>
 								<p class="mb-2 text-gray-500 dark:text-gray-400">
 									{section.content}
@@ -67,8 +75,8 @@
 					{/each}
 				</Accordion>
 			</div>
-			<div class="w-3/4">
-				<Img src={imagesTab[selectedImage]} alt="carrousel" class="rounded-lg" />
+			<div class="w-3/4 h-96">
+				<Img src={imagesTab[selectedImage]} alt="carrousel" class="rounded-lg h-full" />
 			</div>
 		</div>
 	</div>

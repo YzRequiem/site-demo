@@ -5,11 +5,14 @@
 	import Accordion from '$lib/components/Accordion.svelte';
 	
 </script>
+<div class="dark:text-white dark:bg-slate-900">
 
-<HomeBanners />
-
-<Accordion />
-
-<ArticleOne />
-
-<ArticleTwo />
+	<HomeBanners />
+	
+	<Accordion />
+	
+	<ArticleOne />
+	
+	<ArticleTwo />
+	
+</div>
