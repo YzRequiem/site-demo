@@ -30,7 +30,7 @@
       {/each}
     </NavUl>
 
-    <NavUl {hidden}>
+    <!-- <NavUl {hidden}>
         <NavLi href="/login" >Login</NavLi>
         
         <NavLi> <form action="/logout" method="POST">
@@ -39,7 +39,7 @@
       
 
         
-    </NavUl>
+    </NavUl> -->
 
     <DarkMode />
   </Navbar>

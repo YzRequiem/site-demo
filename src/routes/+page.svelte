@@ -15,10 +15,12 @@
 
 	<ArticleDeuxImg />
 	
-	<ArticleOne />
-
 	<HeadingAccordion />
 	
 	<ArticleTwo />
+	
+	<ArticleOne />
+
+	
 	
 </div>

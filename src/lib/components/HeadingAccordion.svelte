@@ -32,10 +32,10 @@
 		</Heading>
 	<Tabs>
 		{#each tabAccordion as tab}
-			<TabItem>
+			<TabItem open>
 				<span slot="title">{tab.title}</span>
 				<p class="text-sm text-gray-500 dark:text-gray-400"><b>{tab.title}</b> {tab.content}</p>
-				<div>
+				<div class="py-5">
 					<img src={tab.src} alt={tab.alt} class="rounded-lg h-full" />
 				</div>
 			</TabItem>
