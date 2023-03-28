@@ -11,9 +11,9 @@
           </div>
         </div>
   
-        <div class="relative flex items-center bg-gray-100">
+        <div class="relative flex items-center bg-gradient-to-r from-green-400 to-blue-500 lg:rounded-l-none md:rounded-b-xl lg:rounded-r-xl   ">
           <span
-            class="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"
+            class="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 rounded-l-xl lg:bg-gradient-to-r from-blue-400 to-green-400"
           ></span>
   
           <div class="p-8 sm:p-16 lg:p-24">

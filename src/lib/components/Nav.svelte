@@ -12,7 +12,7 @@
     ];
   </script>
   
-  <Navbar let:hidden let:toggle rounded color="form">
+  <Navbar let:hidden let:toggle  color="form">
     <NavBrand href="/">
       <img src="/notif-logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
       <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">SilverStock</span>
