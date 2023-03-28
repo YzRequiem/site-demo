@@ -8,13 +8,13 @@
         >
           <img
             alt="Party"
-            src="/appStats1.png"
+            src="/appMessagerie.png"
             class="absolute inset-0 h-full w-full border-4 border-blue-600 shadow-sm shadow-purple-600 "
           />
         </div>
   
         <div class="lg:py-24">
-          <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
+          <h2 class="text-3xl font-bold sm:text-4xl">Communiquez avec vos equipes !</h2>
   
           <p class="mt-4 text-gray-600 dark:text-gray-400">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
