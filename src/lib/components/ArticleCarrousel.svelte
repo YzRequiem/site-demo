@@ -1,6 +1,8 @@
 <script>
 	import { Carousel } from 'flowbite-svelte';
 	import { images } from './+server.js';
+	import '../../styles/carousel.scss'
+
 
 
 	let showThumbs = false;
@@ -12,7 +14,7 @@
 			<div class="relative z-10 lg:py-16">
 				<div class="relative h-64 sm:h-80 lg:h-full ">
 
-					<div class="max-w-4xl">
+					<div class="max-w-4xl carousel-style">
 						<Carousel {images} {showThumbs} indicatorClass='bg-black w-3 h-3 rounded-full bg-gray-100 hover:bg-gray-300 opacity-60' />
 					</div>
 				</div>
