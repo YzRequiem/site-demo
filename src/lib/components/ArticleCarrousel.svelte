@@ -1,12 +1,12 @@
 <script>
 	import { Carousel } from 'flowbite-svelte';
 	import { images } from './+server.js' ;
-// 	import {ChevronDoubleLeft, ChevronDoubleRight } from 'svelte-heros-v2'
+	import {ChevronDoubleLeft, ChevronDoubleRight } from 'svelte-heros-v2'
 
-//   let iconSize =20
-//   let iconClass = 'text-white dark:text-red-500';
+  let iconSize =20
+  let iconClass = 'text-white dark:text-red-500';
 
- 	let showThumbs=false
+	let showThumbs=false
 
 </script>
 
@@ -22,9 +22,9 @@
             /> -->
 
 			<div class="max-w-4xl">
-				<Carousel {images} {showThumbs}  />			  </div>
-				</div>
+				<Carousel {images} {showThumbs}   {iconSize} {iconClass}/>					
 			</div>
+		</div>
 
 			<div
 				class="relative flex items-center bg-gradient-to-r from-green-400 to-blue-500 lg:rounded-l-none md:rounded-b-xl lg:rounded-r-xl"
