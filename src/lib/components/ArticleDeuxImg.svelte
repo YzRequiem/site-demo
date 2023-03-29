@@ -11,8 +11,8 @@
 	];
 </script>
 
-<section>
-	<div class="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+<section class="xl:h-screen xl:flex items-center ">
+	<div class="mx-auto px-4 py-8 sm:px-6 lg:px-8 ">
 		<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 			<div class="bg-blue-600 p-8 md:p-12 lg:px-16 lg:py-24">
 				<div class="mx-auto max-w-xl text-center">

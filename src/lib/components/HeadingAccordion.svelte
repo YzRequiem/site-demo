@@ -1,5 +1,5 @@
 <script>
-	import { Tabs, TabItem, Button, Heading, Span } from 'flowbite-svelte';
+	import { Tabs, TabItem, Heading, Span } from 'flowbite-svelte';
 
 	const tabAccordion = [
 		{
@@ -27,18 +27,28 @@
 </script>
 
 <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-    <Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
-			><Span gradient>Gestion de Stocks</Span>
-		</Heading>
+	<Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
+		><Span gradient>Gestion de Stocks</Span>
+	</Heading>
 	<Tabs>
-		{#each tabAccordion as tab}
-			<TabItem open>
-				<span slot="title">{tab.title}</span>
-				<p class="text-sm text-gray-500 dark:text-gray-400"><b>{tab.title}</b> {tab.content}</p>
-				<div class="py-5">
-					<img src={tab.src} alt={tab.alt} class="rounded-lg h-full" />
-				</div>
-			</TabItem>
+		{#each tabAccordion as tab, i}
+			{#if i === 0}
+				<TabItem open>
+					<span slot="title">{tab.title}</span>
+					<p class="text-sm text-gray-500 dark:text-gray-400"><b>{tab.title}</b> {tab.content}</p>
+					<div class="py-5">
+						<img src={tab.src} alt={tab.alt} class="rounded-lg h-full" />
+					</div>
+				</TabItem>
+			{:else}
+				<TabItem>
+					<span slot="title">{tab.title}</span>
+					<p class="text-sm text-gray-500 dark:text-gray-400"><b>{tab.title}</b> {tab.content}</p>
+					<div class="py-5   ">
+						<img src={tab.src} alt={tab.alt} class="rounded-lg h-full" />
+					</div>
+				</TabItem>
+			{/if}
 		{/each}
 	</Tabs>
 </div>
