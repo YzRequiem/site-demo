@@ -3,41 +3,9 @@
 	import { Img } from 'flowbite-svelte';
 	import { Heading, Span } from 'flowbite-svelte';
 
-	const imagesTab = [
-		'/appStats1.png',
-		'/appStats2.png',
-		'/appStats3.png',
-		'/appStats4.png',
-		'/appStats5.png'
-	];
+	export let imagesTabAccordion = [];
 
-	const sectionsTab = [
-		{
-			title: 'Stats',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
-		},
-		{
-			title: 'Ventes en attente',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
-		},
-		{
-			title: 'Ventes cloturées',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
-		},
-		{
-			title: 'Les commentaires ',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
-		},
-		{
-			title: 'Statistiques Produits',
-			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
-		}
-	];
+	export let sectionsTabAccordion = []
 
 	let selectedImage = 0;
 
@@ -63,7 +31,7 @@
 		<div class="flex py-5 w-full center flex-wrap">
 			<div class="w-full  min-w-200 xl:w-1/4 ">
 				<Accordion class="mr-5 min-w-200 ">
-					{#each sectionsTab as section, index}
+					{#each sectionsTabAccordion as section, index}
 						<div on:click={() => updateSelectedImage(index)} on:keydown>
 							<AccordionItem class="  ">
 								<span slot="header">{section.title}</span>
@@ -76,7 +44,7 @@
 				</Accordion>
 			</div>
 			<div class="xl:w-3/4 w-full h-96">
-				<Img src={imagesTab[selectedImage]} alt="carrousel" class="rounded-lg h-full" />
+				<Img src={imagesTabAccordion[selectedImage]} alt="carrousel" class="rounded-lg h-full" />
 			</div>
 		</div>
 	</div>

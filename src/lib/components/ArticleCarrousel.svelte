@@ -1,30 +1,25 @@
 <script>
 	import { Carousel } from 'flowbite-svelte';
-	import { images } from './+server.js' ;
-	import {ChevronDoubleLeft, ChevronDoubleRight } from 'svelte-heros-v2'
+	import { images } from './+server.js';
+	import { ChevronDoubleLeft, ChevronDoubleRight } from 'svelte-heros-v2';
 
-  let iconSize =20
-  let iconClass = 'text-white dark:text-red-500';
+	let iconSize = 20;
+	let iconClass = 'text-white dark:text-red-500';
 
-	let showThumbs=false
-
+	let showThumbs = false;
 </script>
 
 <section>
 	<div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-		<div class="grid grid-cols-1  lg:grid-cols-2">
+		<div class="grid grid-cols-1 lg:grid-cols-2">
 			<div class="relative z-10 lg:py-16">
 				<div class="relative h-64 sm:h-80 lg:h-full">
-					<!-- <img
-              alt="House"
-              src="\appStats1.png"
-              class="absolute inset-0 h-full w-full "
-            /> -->
 
-			<div class="max-w-4xl">
-				<Carousel {images} {showThumbs}   {iconSize} {iconClass}/>					
+					<div class="max-w-4xl">
+						<Carousel {images} {showThumbs} {iconSize} {iconClass} />
+					</div>
+				</div>
 			</div>
-		</div>
 
 			<div
 				class="relative flex items-center bg-gradient-to-r from-green-400 to-blue-500 lg:rounded-l-none md:rounded-b-xl lg:rounded-r-xl"
