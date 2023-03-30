@@ -13,7 +13,7 @@
 		return (selectedImage = index);
 	}
 
-	let hoverBorderNone = 'group-first:rounded-t-none';
+
 
 </script>
 
@@ -38,7 +38,7 @@
 						{:else}									
 						
 						<div on:click={() => updateSelectedImage(index)} on:keydown>
-							<AccordionItem class=" {hoverBorderNone} ">
+							<AccordionItem class="!rounded-none ">
 								<span slot="header">{section.title}</span>
 								
 									<p class="mb-2 text-gray-500 dark:text-gray-400">
