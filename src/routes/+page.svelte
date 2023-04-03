@@ -5,6 +5,7 @@
 	import ArticleDeuxImg from '$lib/components/ArticleDeuxImg.svelte';
 	import HeadingAccordion from '$lib/components/HeadingAccordion.svelte';
 	import ArticleCarrousel from '$lib/components/ArticleCarrousel.svelte';
+	import Timeline from '../lib/components/Timeline.svelte';
 
 	let imagesTabAccordion  = [
 	
@@ -58,6 +59,8 @@
 <div class="dark:text-white dark:bg-slate-900">
 
 	<HomeBanners />
+
+	<Timeline />
 	
 	<Accordion {imagesTabAccordion} {sectionsTabAccordion} />
 
