@@ -6,7 +6,7 @@
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
         <FooterBrand
-          href="/accueil"
+          href="/"
           src="/notif-logo.png"
           alt="SilverStock Logo"
           name="SilverStock"
@@ -21,7 +21,7 @@
           </FooterLinkGroup>
         </div>
         <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Follow us</h2>
+          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Suivez Nous</h2>
           <FooterLinkGroup>
             <FooterLink liClass="mb-4" href="/">GitHub</FooterLink>
             <FooterLink liClass="mb-4" href="/">Discord</FooterLink>

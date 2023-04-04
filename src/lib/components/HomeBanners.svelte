@@ -1,4 +1,10 @@
-<section class="overflow-hidden  h-screen sm:grid sm:grid-cols-2">
+<style>
+  .h-90vh {
+    height: 90vh;
+  }
+</style>
+
+<section class="overflow-hidden h-90vh sm:grid sm:grid-cols-2">
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
       <div class="mx-auto max-w-xl text-center sm:text-left">
         <h2 class="text-2xl font-bold text-gray-900 md:text-3xl dark:text-slate-100">

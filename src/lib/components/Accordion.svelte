@@ -17,7 +17,7 @@
 
 </script>
 
-<section class="w-full h-screen flex items-center justify-center py-5">
+<section class="w-full my-5 flex items-center justify-center py-5">
 	<div class="flex flex-col py-5 w-full lg:w-8/12 center">
 		<Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
 			><Span gradient>Les Statistiques</Span>

@@ -19,7 +19,7 @@
 					<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow" />
 				</div>
 			</div>
-			<!-- right -->
+			<!-- right --> 
 			<div class="flex md:contents">
 				<div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
 					<div class="h-full w-6 flex items-center justify-center">

@@ -6,6 +6,7 @@
 	import HeadingAccordion from '$lib/components/HeadingAccordion.svelte';
 	import ArticleCarrousel from '$lib/components/ArticleCarrousel.svelte';
 	import Timeline from '../lib/components/Timeline.svelte';
+	import ThreeIcons from '../lib/components/ThreeIcons.svelte';
 
 	let imagesTabAccordion  = [
 	
@@ -60,10 +61,11 @@
 
 	<HomeBanners />
 
-	<Timeline />
+	<ThreeIcons />
+
 	
 	<Accordion {imagesTabAccordion} {sectionsTabAccordion} />
-
+	
 	<ArticleDeuxImg {imgListDeuxImages} />
 	
 	<HeadingAccordion />
@@ -71,7 +73,8 @@
 	<ArticleTwo />
 	
 	<ArticleCarrousel />
-
+	
+	<Timeline />
 	
 	
 </div>
