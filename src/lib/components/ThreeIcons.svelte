@@ -18,32 +18,21 @@
 						Gestion de stock efficace
 					</dt>
 
-					<dd class="  text-blue-600 flex justify-center">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 24 24"
-							fill="currentColor"
-							class="w-14 h-14"
+					<dd class="  fill-[#BE0562] flex justify-center">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-14 h-14">
+							<path
+								d="M50.7 58.5L0 160H208V32H93.7C75.5 32 58.9 42.3 50.7 58.5zM240 160H448L397.3 58.5C389.1 42.3 372.5 32 354.3 32H240V160zm208 32H0V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192z"
+							/></svg
 						>
-							<path
-								d="M11.644 1.59a.75.75 0 01.712 0l9.75 5.25a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.712 0l-9.75-5.25a.75.75 0 010-1.32l9.75-5.25z"
-							/>
-							<path
-								d="M3.265 10.602l7.668 4.129a2.25 2.25 0 002.134 0l7.668-4.13 1.37.739a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.71 0l-9.75-5.25a.75.75 0 010-1.32l1.37-.738z"
-							/>
-							<path
-								d="M10.933 19.231l-7.668-4.13-1.37.739a.75.75 0 000 1.32l9.75 5.25c.221.12.489.12.71 0l9.75-5.25a.75.75 0 000-1.32l-1.37-.738-7.668 4.13a2.25 2.25 0 01-2.134-.001z"
-							/>
-						</svg>
 					</dd>
 				</div>
 
-				<div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+				<div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center ">
 					<dt class="order-last text-lg font-medium text-gray-500 py-5">
 						Statistiques de ventes en temps réel
 					</dt>
 
-					<dd class="text-4xl font-extrabold text-blue-600 md:text-5xl flex justify-center">
+					<dd class="text-4xl font-extrabold text-[#BE0562] md:text-5xl flex justify-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
@@ -67,7 +56,7 @@
 				<div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
 					<dt class="order-last text-lg font-medium text-gray-500 py-5">Optimisateur de vente</dt>
 
-					<dd class="text-4xl font-extrabold text-blue-600 md:text-5xl flex justify-center">
+					<dd class="text-4xl font-extrabold text-[#BE0562] md:text-5xl flex justify-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
