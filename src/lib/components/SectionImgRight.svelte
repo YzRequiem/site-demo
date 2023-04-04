@@ -2,13 +2,13 @@
 
 </script>
 
-<section class="flex flex-col  bg-black xl:flex-row ">
+<section class="flex flex-col  bg-black xl:flex-row mb-10 xl:m-0">
 
     <article class=" xl:w-3/6 flex justify-center items-center gap-5">
         <div class="h-full flex items-center">
             <div class="test w-3 h-1/2"></div>
         </div>
-        <div class="flex flex-col gap-10 xl:gap-20  text-center w-3/6">
+        <div class="flex flex-col gap-10 xl:gap-20  text-center w-3/6 mb-10 xl:m-0">
             <h2 class="text-xl xl:text-3xl ">Tous les chiffres à portée de main</h2>
             <p class="xl:text-xl">
                 Décisions professionnelles plus réfléchies grâce à un accès en temps réel à toutes vos données d'entreprises importantes, partout et à tout moment.
