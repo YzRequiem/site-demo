@@ -35,14 +35,14 @@
 	}
 
 	.bg-image {
-		background-image: url('imagebanner.webp');
+		background-image: url('/imagebanner.webp');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 	}
 
 	.layer {
-		background-image: url('layerbg.webp');
+		background-image: url('/layerbg.webp');
 
 		background-repeat: no-repeat;
 		background-size: cover;
