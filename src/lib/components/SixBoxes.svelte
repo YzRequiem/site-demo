@@ -12,8 +12,7 @@
 		<div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 			<a
 				class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-				href="/services/digital-campaigns"
-			>
+                href="#"			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-10 w-10 text-pink-500"
@@ -36,15 +35,13 @@
 				<h2 class="mt-4 text-xl font-bold text-white">Communiquez avec vos Equipes</h2>
 
 				<p class="mt-1 text-sm text-gray-300">
-					
-Centralisez la communication entre collaborateur grâce à un tchat interne
+					Centralisez la communication entre collaborateur grâce à un tchat interne
 				</p>
 			</a>
 
 			<a
 				class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-				href="/services/digital-campaigns"
-			>
+                href="#"			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-10 w-10 text-pink-500"
@@ -67,13 +64,14 @@ Centralisez la communication entre collaborateur grâce à un tchat interne
 				<h2 class="mt-4 text-xl font-bold text-white">Collaboration</h2>
 
 				<p class="mt-1 text-sm text-gray-300">
-					Collaborez efficacement en ayant une vision claire de tout votre travail. Restez maître du temps grâce à des automatisations faciles à utiliser.
+					Collaborez efficacement en ayant une vision claire de tout votre travail. Restez maître du
+					temps grâce à des automatisations faciles à utiliser.
 				</p>
 			</a>
 
 			<a
 				class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-				href="/services/digital-campaigns"
+				href="#"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +101,7 @@ Centralisez la communication entre collaborateur grâce à un tchat interne
 
 			<a
 				class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-				href="/services/digital-campaigns"
+				href="#"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -127,15 +125,14 @@ Centralisez la communication entre collaborateur grâce à un tchat interne
 				<h2 class="mt-4 text-xl font-bold text-white">Fusion entre les doublons</h2>
 
 				<p class="mt-1 text-sm text-gray-300">
-					
-Recevez des alertes lorsque vous saisissez un prospect ou un compte en double. Supprimez les doublons en identifiant et en fusionnant les prospects et les contacts en double.
+					Recevez des alertes lorsque vous saisissez un prospect ou un compte en double. Supprimez
+					les doublons en identifiant et en fusionnant les prospects et les contacts en double.
 				</p>
 			</a>
 
 			<a
 				class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-				href="/services/digital-campaigns"
-			>
+                href="#"			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-10 w-10 text-pink-500"
@@ -158,15 +155,14 @@ Recevez des alertes lorsque vous saisissez un prospect ou un compte en double. S
 				<h2 class="mt-4 text-xl font-bold text-white">Prévision de vente</h2>
 
 				<p class="mt-1 text-sm text-gray-300">
-					
-Exploitez les rapports pour comparer les prévisions aux ventes réelles et analysez les prévisions par mois, par représentant commercial ou tout autre critère.
+					Exploitez les rapports pour comparer les prévisions aux ventes réelles et analysez les
+					prévisions par mois, par représentant commercial ou tout autre critère.
 				</p>
 			</a>
 
 			<a
 				class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-				href="/services/digital-campaigns"
-			>
+                href="#"			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-10 w-10 text-pink-500"
@@ -186,11 +182,11 @@ Exploitez les rapports pour comparer les prévisions aux ventes réelles et anal
 					/>
 				</svg>
 
-				<h2 class="mt-4 text-xl font-bold text-white">		Objectifs d'équipe</h2>
+				<h2 class="mt-4 text-xl font-bold text-white">Objectifs d'équipe</h2>
 
 				<p class="mt-1 text-sm text-gray-300">
-			
-Gérez les quotas de votre équipe dans le temps, suivez les victoires et visualisez les objectifs pour des utilisateurs spécifiques ou pour l'ensemble de l'équipe.
+					Gérez les quotas de votre équipe dans le temps, suivez les victoires et visualisez les
+					objectifs pour des utilisateurs spécifiques ou pour l'ensemble de l'équipe.
 				</p>
 			</a>
 		</div>

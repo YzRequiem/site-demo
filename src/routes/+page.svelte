@@ -57,7 +57,7 @@
 	];
 	
 </script>
-<div class="dark:text-white dark:bg-slate-900">
+<div class="dark:text-white dark:bg-gray-900">
 
 	<HomeBanners />
 
