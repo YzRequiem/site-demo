@@ -7,6 +7,7 @@
 	import ArticleCarrousel from '$lib/components/ArticleCarrousel.svelte';
 	import Timeline from '../lib/components/Timeline.svelte';
 	import ThreeIcons from '../lib/components/ThreeIcons.svelte';
+	import SectionImgRight from '../lib/components/SectionImgRight.svelte';
 
 	let imagesTabAccordion  = [
 	
@@ -60,6 +61,8 @@
 <div class="dark:text-white dark:bg-gray-900">
 
 	<HomeBanners />
+
+	<SectionImgRight />
 
 	<ThreeIcons />
 

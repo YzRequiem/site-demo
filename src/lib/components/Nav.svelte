@@ -15,7 +15,7 @@
   
   <Navbar let:hidden let:toggle  color="form">
     <NavBrand href="/">
-      <img src="/notif-logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
+      <img src="/notif-logo.png" class="mr-3 h-6 sm:h-9" alt="silver-stock Logo"/>
       <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">SilverStock</span>
     </NavBrand>
     <NavHamburger on:click={toggle} />
