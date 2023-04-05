@@ -32,7 +32,7 @@
 						Statistiques de ventes en temps réel
 					</dt>
 
-					<dd class="text-4xl font-extrabold text-[#23B7E5] md:text-5xl flex justify-center">
+					<dd class="text-4xl font-extrabold text-[#2594E4] md:text-5xl flex justify-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
@@ -56,7 +56,7 @@
 				<div class="flex flex-col rounded-lg border border-gray-500 px-4 py-8 text-center">
 					<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">Optimisateur de vente</dt>
 
-					<dd class="text-4xl font-extrabold text-[#23B7E5] md:text-5xl flex justify-center">
+					<dd class="text-4xl font-extrabold text-[#2594E4] md:text-5xl flex justify-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"

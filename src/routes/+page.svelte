@@ -10,6 +10,7 @@
 	import SectionImgRight from '../lib/components/SectionImgRight.svelte';
 	import SVGdivider from '../lib/components/SVGdivider.svelte';
 	import Cta from '../lib/components/CTA.svelte';
+	import LeftCta from '../lib/components/LeftCTA.svelte';
 
 	let imagesTabAccordion  = [
 	
@@ -71,6 +72,8 @@
 	<ThreeIcons />
 
 	<Cta />
+
+	<LeftCta />
 
 	<Accordion {imagesTabAccordion} {sectionsTabAccordion} />
 	
