@@ -1,14 +1,16 @@
 <script>
+	import SvGdivider from '../../lib/components/SVGdivider.svelte';
 	import SixBoxes from '../../lib/components/SixBoxes.svelte';
 
 
 </script>
 
 
-<main>
+<main class="bg-gray-900">
     <section class="bg-image h-screen">
         
     </section>
+    <SvGdivider />
     <SixBoxes />
 </main>
 

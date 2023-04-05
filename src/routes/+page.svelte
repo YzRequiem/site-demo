@@ -8,6 +8,8 @@
 	import Timeline from '../lib/components/Timeline.svelte';
 	import ThreeIcons from '../lib/components/ThreeIcons.svelte';
 	import SectionImgRight from '../lib/components/SectionImgRight.svelte';
+	import SVGdivider from '../lib/components/SVGdivider.svelte';
+	import Cta from '../lib/components/CTA.svelte';
 
 	let imagesTabAccordion  = [
 	
@@ -64,9 +66,12 @@
 
 	<SectionImgRight />
 
+	<SVGdivider />
+
 	<ThreeIcons />
 
-	
+	<Cta />
+
 	<Accordion {imagesTabAccordion} {sectionsTabAccordion} />
 	
 	<ArticleDeuxImg {imgListDeuxImages} />
@@ -76,8 +81,6 @@
 	<ArticleTwo />
 	
 	<ArticleCarrousel />
-	
-	<Timeline />
-	
+		
 	
 </div>
