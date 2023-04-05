@@ -13,8 +13,8 @@
 
 		<div class="mt-8 sm:mt-12">
 			<dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-				<div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-					<dt class="order-last text-lg font-medium text-gray-500 py-5">
+				<div class="flex flex-col rounded-lg border border-gray-500 px-4 py-8 text-center">
+					<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
 						Gestion de stock efficace
 					</dt>
 
@@ -27,8 +27,8 @@
 					</dd>
 				</div>
 
-				<div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center ">
-					<dt class="order-last text-lg font-medium text-gray-500 py-5">
+				<div class="flex flex-col rounded-lg border border-gray-500 px-4 py-8 text-center ">
+					<dt class="order-last text-lg font-medium text-gray-500  dark:text-gray-400 py-5">
 						Statistiques de ventes en temps réel
 					</dt>
 
@@ -53,8 +53,8 @@
 					</dd>
 				</div>
 
-				<div class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-					<dt class="order-last text-lg font-medium text-gray-500 py-5">Optimisateur de vente</dt>
+				<div class="flex flex-col rounded-lg border border-gray-500 px-4 py-8 text-center">
+					<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">Optimisateur de vente</dt>
 
 					<dd class="text-4xl font-extrabold text-[#23B7E5] md:text-5xl flex justify-center">
 						<svg
