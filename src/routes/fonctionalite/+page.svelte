@@ -1,11 +1,11 @@
 <script>
-	import SvGdivider from '../../lib/components/SVGdivider.svelte';
-	import SixBoxes from '../../lib/components/SixBoxes.svelte';
-    import Accordion from '../../lib/components/Accordion.svelte';
-    import ArticleDeuxImg from '../../lib/components/ArticleDeuxImg.svelte';
-    import HeadingAccordion from '../../lib/components/HeadingAccordion.svelte';
-    import ArticleTwo from '../../lib/components/ArticleTwo.svelte';
-    import ArticleCarrousel from '../../lib/components/ArticleCarrousel.svelte';    
+	import SvGdivider from '$lib/components/SVGdivider.svelte';
+	import SixBoxes from '$lib/components/SixBoxes.svelte';
+    import Accordion from '$lib/components/Accordion.svelte';
+    import ArticleDeuxImg from '$lib/components/ArticleDeuxImg.svelte';
+    import HeadingAccordion from '$lib/components/HeadingAccordion.svelte';
+    import ArticleTwo from '$lib/components/ArticleTwo.svelte';
+    import ArticleCarrousel from '$lib/components/ArticleCarrousel.svelte';    
     
 let imagesTabAccordion  = [
 	
@@ -59,10 +59,18 @@ let communication = {
 		title: 'Communiquez avec vos equipes !',
 		content:
 			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius quidem quam repellat.',
-		src: '/comunicate.jpg',
+		src: '/message.jpg',
 		alt: 'comunicate',
 		buttonHref: '#',
 		buttonText: 'Get Started Today'
+	};
+
+let headerVendeurs = {
+		title: 'Stats Vendeurs',
+		content:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.',
+		buttonTitle: 'Get Started Today',
+		buttonHref: '/offres'
 	};
 
 </script>
@@ -81,7 +89,7 @@ let communication = {
 
         <Accordion {imagesTabAccordion} {sectionsTabAccordion} />
 	
-	    <ArticleDeuxImg {imgListDeuxImages} />
+	    <ArticleDeuxImg header = {headerVendeurs} {imgListDeuxImages} />
 	
 	    <HeadingAccordion />
 	

@@ -62,35 +62,36 @@ let tabIcons = [
 			alt: 'rocket',
 			width : 'w-14 h-14'
 		}
-	];
+];
 
+// partenaires
+
+// let headerPartenaires  = {
+// 		title: 'Nos Partenaires',
+// 		content:	''
+// 	};
 	
-let headerPartenaires  = {
-		title: 'Nos Partenaires',
-		content:
-			''
-	};
-	
-let tabIconsPartenaires = [
-		{
-			title: '',
-			src: '/e-tasty.webp',
-			alt: 'e-tasty',
-			bgbox: 'bg-white'
-		},
-		{
-			title: '',
-			src: '/joshnoa.webp',
-			alt: 'joshnoa',
-			bgbox: 'bg-white'
-		},
-		{
-			title: '',
-			src: '/kumulus.webp',
-			alt: 'kumulus_vape',
-			bgbox: 'bg-white'
-		}
-	];
+
+// let tabIconsPartenaires = [
+// 		{
+// 			title: '',
+// 			src: '/e-tasty.webp',
+// 			alt: 'e-tasty',
+// 			bgbox: 'bg-white'
+// 		},
+// 		{
+// 			title: '',
+// 			src: '/joshnoa.webp',
+// 			alt: 'joshnoa',
+// 			bgbox: 'bg-white'
+// 		},
+// 		{
+// 			title: '',
+// 			src: '/kumulus.webp',
+// 			alt: 'kumulus_vape',
+// 			bgbox: 'bg-white'
+// 		}
+// 	];
 
 </script>
 <div class="dark:text-white dark:bg-gray-900">
@@ -112,8 +113,10 @@ let tabIconsPartenaires = [
 
 	
 	<ArticleTwo obj = {communication} />
+
+	<!-- section partenaire -->
 	
-	<ThreeIcons header={headerPartenaires} iconsTab={tabIconsPartenaires} />
+	<!-- <ThreeIcons header={headerPartenaires} iconsTab={tabIconsPartenaires} /> -->
 		
 	
 </div>
