@@ -1,16 +1,12 @@
 <script>
 	import ArticleTwo from '$lib/components/ArticleTwo.svelte';
 	import HomeBanners from '$lib/components/HomeBanners.svelte';
-	import Accordion from '$lib/components/Accordion.svelte';
-	import ArticleDeuxImg from '$lib/components/ArticleDeuxImg.svelte';
-	import HeadingAccordion from '$lib/components/HeadingAccordion.svelte';
-	import ArticleCarrousel from '$lib/components/ArticleCarrousel.svelte';
 	import ThreeIcons from '$lib/components/ThreeIcons.svelte';
 	import SectionImgRight from '$lib/components/SectionImgRight.svelte';
 	import SVGdivider from '$lib/components/SVGdivider.svelte';
 	import Cta from '$lib/components/CTA.svelte';
 	import LeftCta from '$lib/components/LeftCTA.svelte';
-	import Statistics from '$lib/components/Statistics.svelte';
+	import SixBoxes from '../lib/components/SixBoxes.svelte';
 
 
 let ctaStocks = {
@@ -51,17 +47,48 @@ let tabIcons = [
 		{
 			title: 'Gestion de stock efficace',
 			src: '/svg/box.svg',
-			alt: 'Stock'
+			alt: 'Stock',
+			width : 'w-14 h-14',
 		},
 		{
 			title: 'Gestion de stock efficace',
 			src: '/svg/stats.svg',
-			alt: 'Stock'
+			alt: 'Stock',
+			width : 'w-14 h-14'
 		},
 		{
 			title: 'Gestion de stock efficace',
 			src: '/svg/fuse.svg',
-			alt: 'rocket'
+			alt: 'rocket',
+			width : 'w-14 h-14'
+		}
+	];
+
+	
+let headerPartenaires  = {
+		title: 'Nos Partenaires',
+		content:
+			''
+	};
+	
+let tabIconsPartenaires = [
+		{
+			title: '',
+			src: '/e-tasty.webp',
+			alt: 'e-tasty',
+			bgbox: 'bg-white'
+		},
+		{
+			title: '',
+			src: '/joshnoa.webp',
+			alt: 'joshnoa',
+			bgbox: 'bg-white'
+		},
+		{
+			title: '',
+			src: '/kumulus.webp',
+			alt: 'kumulus_vape',
+			bgbox: 'bg-white'
 		}
 	];
 
@@ -86,7 +113,7 @@ let tabIcons = [
 	
 	<ArticleTwo obj = {communication} />
 	
-
+	<ThreeIcons header={headerPartenaires} iconsTab={tabIconsPartenaires} />
 		
 	
 </div>
