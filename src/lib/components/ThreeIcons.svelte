@@ -4,7 +4,7 @@
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore provident impedit esse recusandae facere libero harum sequi.'
 	};
-
+	
 	export let iconsTab = [
 		{
 			title: 'Gestion de stock efficace',
