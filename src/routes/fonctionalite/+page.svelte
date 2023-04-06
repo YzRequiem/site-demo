@@ -63,7 +63,7 @@ let communication = {
 		alt: 'comunicate',
 		buttonHref: '#',
 		buttonText: 'Get Started Today'
-	};
+};
 
 let headerVendeurs = {
 		title: 'Stats Vendeurs',
@@ -77,7 +77,15 @@ let headerVendeurs = {
 
 
 <main class="bg-gray-900">
-    <section class="bg-image h-screen">
+    <section class="bg-image h-screen flex flex-col">
+        <div class=" h-24 flex items-center">
+            <h2
+                class="text-4xl font-bold text-center pt-10 text-white"
+            >
+            DES CAPACITÉS MULTIPLES, UNE CAISSE ENREGISTREUSE EN LIGNE INTELLIGENTE
+            </h2>
+
+        </div>
         
 
       

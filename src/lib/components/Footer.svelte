@@ -1,6 +1,9 @@
 <script>
     import { Footer, FooterBrand, FooterCopyright, FooterIcon, FooterLink, FooterLinkGroup } from "flowbite-svelte"
+	import SvGdividerBottom from "./SVGdividerBottom.svelte";
   </script>
+  
+  <SvGdividerBottom />
   
   <Footer footerType="socialmedia">
     <div class="md:flex md:justify-between">
