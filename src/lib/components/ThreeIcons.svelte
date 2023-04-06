@@ -1,27 +1,7 @@
 <script>
-	export let header = {
-		title: 'Gérez votre commerce en toute simplicité',
-		content:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore provident impedit esse recusandae facere libero harum sequi.'
-	};
+	export let header = {};
 	
-	export let iconsTab = [
-		{
-			title: 'Gestion de stock efficace',
-			src: '/svg/box.svg',
-			alt: 'Stock'
-		},
-		{
-			title: 'Gestion de stock efficace',
-			src: '/svg/stats.svg',
-			alt: 'Stock'
-		},
-		{
-			title: 'Gestion de stock efficace',
-			src: '/svg/fuse.svg',
-			alt: 'rocket'
-		}
-	];
+	export let iconsTab = [];
 </script>
 
 <section class="py-10 bg-white dark:text-white dark:bg-slate-900">

@@ -29,7 +29,7 @@
 				/>
 
 				<div class="p-8 sm:p-16 lg:p-24">
-					<h2 class="text-2xl font-bold sm:text-3xl">
+					<h2 class="text-2xl font-bold sm:text-3xl dark:text-slate-100">
 						Une gestion évidente de vos Gammes Liquides
 					</h2>
 
