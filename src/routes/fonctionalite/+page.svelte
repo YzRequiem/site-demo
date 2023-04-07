@@ -78,9 +78,9 @@ let headerVendeurs = {
 
 <main class="bg-gray-900">
     <section class="bg-image h-screen flex flex-col">
-        <div class=" h-24 flex items-center">
+        <div class=" h-28 flex items-center justify-center">
             <h2
-                class="text-4xl font-bold text-center pt-10 text-white"
+                class="text-2xl xl:text-4xl text-center  text-white"
             >
             DES CAPACITÉS MULTIPLES, UNE CAISSE ENREGISTREUSE EN LIGNE INTELLIGENTE
             </h2>

@@ -51,15 +51,15 @@ let tabIcons = [
 			width : 'w-14 h-14',
 		},
 		{
-			title: 'Gestion de stock efficace',
+			title: 'Statistiques de ventes en temps réel',
 			src: '/svg/stats.svg',
-			alt: 'Stock',
+			alt: 'Statistiques',
 			width : 'w-14 h-14'
 		},
 		{
-			title: 'Gestion de stock efficace',
+			title: 'Optimisateur de ventes',
 			src: '/svg/fuse.svg',
-			alt: 'rocket',
+			alt: 'Fusée',
 			width : 'w-14 h-14'
 		}
 ];
