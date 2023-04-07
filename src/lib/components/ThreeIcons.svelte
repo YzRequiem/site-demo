@@ -27,6 +27,11 @@
 								{box?.title}
 							</dt>
 						{/if}
+						{#if box.content}
+						<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
+							<p>{box?.content}</p>
+						</dt>
+					{/if}
 
 						<dd class=" flex justify-center ">
 							<img src={box.src} alt={box.alt} class="{box.width}" />
