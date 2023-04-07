@@ -1,3 +1,13 @@
+<script>
+	import ButtonOne from "./ButtonOne.svelte";
+
+	let buttonAttributs = {
+        href: '#',
+        text: "Commencez aujourd'hui",
+    };
+
+
+</script>
 <section class="  bg-image">
 	<div class="layer overflow-hidden h-90vh grid-row-2 grid">
 		<div class=" " />
@@ -19,12 +29,7 @@
 				</p>
 
 				<div class="mt-4 md:mt-8">
-					<a
-						href="#"
-						class="inline-block rounded bg-[#BE0562] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#2594E4] focus:outline-none focus:ring focus:ring-yellow-400"
-					>
-						Commencez aujourd'hui
-					</a>
+					<ButtonOne {buttonAttributs} />
 				</div>
 			</div>
 		</div>

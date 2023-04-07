@@ -1,7 +1,14 @@
 <script>
+	import ButtonOne from "./ButtonOne.svelte";
+
 	export let obj = {
 		
 	};
+
+	let buttonAttributs = {
+        href: '#',
+        text: "Commencez aujourd'hui",
+    };
 </script>
 
 <section class="py-5 flex items-center h-screen">
@@ -22,12 +29,10 @@
 					{obj.content}
 				</p>
 
-				<a
-					href={obj.buttonHref}
-					class="mt-8 inline-block rounded bg-[#BE0562] px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-				>
-					{obj.buttonText}
-				</a>
+				<div class="py-8">
+					<ButtonOne {buttonAttributs} />
+				</div>
+				
 			</div>
 		</div>
 	</div>

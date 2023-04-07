@@ -1,6 +1,14 @@
 <script>
+	import ButtonOne from "./ButtonOne.svelte";
+
 
 	 export let tabCTA = {}
+
+	 let buttonAttributs = {
+        href: '#',
+        text: "Commencez aujourd'hui",
+    };
+
 
     // export let tabCTA =
     
@@ -28,12 +36,7 @@
 			</p>
 
 			<div class="mt-4 md:mt-8">
-				<a
-					href={tabCTA.buttonHref}
-					class="inline-block rounded bg-[#BE0562] px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
-				>
-					{tabCTA.buttonText}
-				</a>
+				<ButtonOne {buttonAttributs} />
 			</div>
 		</div>
 	</div>
