@@ -1,5 +1,7 @@
 <script>
-	import { Tabs, TabItem, Heading, Span } from 'flowbite-svelte';
+	import { Tabs, TabItem } from 'flowbite-svelte';
+	import HeadingTitle from './HeadingTitle.svelte';
+	let titleStocks = 'Gestion de Stocks';
 
 	const tabAccordion = [
 		{
@@ -26,10 +28,13 @@
 	];
 </script>
 
-<div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-	<Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
-		><Span gradient>Gestion de Stocks</Span>
-	</Heading>
+<section class="flex justify-center  mt-20">
+	<div class="lg:w-8/12 ">
+		<HeadingTitle title={titleStocks} />
+	</div>
+</section>
+
+<section class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
 	<Tabs>
 		{#each tabAccordion as tab, i}
 			{#if i === 0}
@@ -51,4 +56,4 @@
 			{/if}
 		{/each}
 	</Tabs>
-</div>
+</section>

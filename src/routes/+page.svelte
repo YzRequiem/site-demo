@@ -7,6 +7,7 @@
 	import Cta from '$lib/components/CTA.svelte';
 	import LeftCta from '$lib/components/LeftCTA.svelte';
 	import SixBoxes from '../lib/components/SixBoxes.svelte';
+	import TextBanner from '../lib/components/TextBanner.svelte';
 
 
 let ctaStocks = {
@@ -110,7 +111,7 @@ let tabIcons = [
 
 	<Cta tabCTA = {ctaVentes} />
 
-
+	<TextBanner />
 	
 	<ArticleTwo obj = {communication} />
 

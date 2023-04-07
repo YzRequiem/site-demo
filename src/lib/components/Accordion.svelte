@@ -1,8 +1,9 @@
 <script>
 	import { AccordionItem, Accordion } from 'flowbite-svelte';
 	import { Img } from 'flowbite-svelte';
-	import { Heading, Span } from 'flowbite-svelte';
+	import HeadingTitle from './HeadingTitle.svelte';
 
+	let titleStats = 'Les Statistiques';
 	export let imagesTabAccordion = [];
 
 	export let sectionsTabAccordion = [];
@@ -17,11 +18,13 @@
 
 </script>
 
+<section class="flex justify-center mt-20">
+	<div class="lg:w-8/12 ">
+		<HeadingTitle title={titleStats} />
+	</div>
+</section>
 <section class="w-full my-5 flex items-center justify-center py-5">
 	<div class="flex flex-col py-5 w-full lg:w-8/12 center">
-		<Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-6xl"
-			><Span gradient>Les Statistiques</Span>
-		</Heading>
 		<div class="flex py-5 w-full center flex-wrap">
 			<div class="w-full min-w-200 xl:w-1/4">
 				<Accordion class="mr-5 min-w-200 ">

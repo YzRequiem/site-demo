@@ -6,6 +6,7 @@
     import HeadingAccordion from '$lib/components/HeadingAccordion.svelte';
     import ArticleTwo from '$lib/components/ArticleTwo.svelte';
     import ArticleCarrousel from '$lib/components/ArticleCarrousel.svelte';    
+	import HeadingTitle from '../../lib/components/HeadingTitle.svelte';
     
 let imagesTabAccordion  = [
 	
@@ -73,6 +74,7 @@ let headerVendeurs = {
 		buttonHref: '/offres'
 	};
 
+let titleManagement = "Management d'equipes"
 </script>
 
 
@@ -86,24 +88,29 @@ let headerVendeurs = {
             </h2>
 
         </div>
-        
-
-      
     </section>
 
-        <SvGdivider />
+    <SvGdivider />
     
-        <SixBoxes />
+    <SixBoxes />
 
-        <Accordion {imagesTabAccordion} {sectionsTabAccordion} />
+    <Accordion {imagesTabAccordion} {sectionsTabAccordion} />
 	
-	    <ArticleDeuxImg header = {headerVendeurs} {imgListDeuxImages} />
+        
+	<HeadingAccordion />
+        
+    <section class="flex justify-center  mt-20">
+        <div class="lg:w-8/12 ">
+            <HeadingTitle title={titleManagement} />
+        </div>
+    </section>
+
+    <ArticleTwo obj = {communication} /> 
+
+
+	<ArticleDeuxImg header = {headerVendeurs} {imgListDeuxImages} />
 	
-	    <HeadingAccordion />
-	
-	    <ArticleTwo obj = {communication} /> 
-	
-	    <ArticleCarrousel />
+    <ArticleCarrousel />
 
 </main>
 
