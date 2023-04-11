@@ -15,30 +15,30 @@
 let imagesTabAccordion  = [
 	
     '/appStats1.png',
-    '/appStats2.png',
+    '/ventesHorraires.png',
     '/appStats3.png',
-    '/appStats4.png',
+    '/statsVendeursPaysage.png',
     '/appStats5.png'
 ];
 
 let sectionsTabAccordion = [
     {
-        title: 'Stats',
+        title: 'Statistiques générales',
         content:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
     },
     {
-        title: 'Ventes en attente',
+        title: 'Moyenne de vente horaire',
         content:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
     },
     {
-        title: 'Ventes cloturées',
+        title: 'Statistiques journalières',
         content:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
     },
     {
-        title: 'Les commentaires ',
+        title: 'Statistiques Vendeurs ',
         content:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...'
     },

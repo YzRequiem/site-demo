@@ -6,7 +6,6 @@
 	import SVGdivider from '$lib/components/SVGdivider.svelte';
 	import Cta from '$lib/components/CTA.svelte';
 	import LeftCta from '$lib/components/LeftCTA.svelte';
-	import SixBoxes from '../lib/components/SixBoxes.svelte';
 	import TextBanner from '../lib/components/TextBanner.svelte';
 
 
