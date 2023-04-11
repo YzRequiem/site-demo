@@ -9,7 +9,7 @@
 </script>
 
 <section class="flex xl:flex-row flex-col justify-center items-center py-10">
-    <article class="lg:py-24 px-24 w-full lg:w-3/6">
+    <article class="lg:py-24 xl:px-48 px-24 w-full lg:w-3/6">
         <h2 class="text-3xl font-bold sm:text-4xl dark:text-slate-100">{twoImgContent.title}</h2>
 
         <p class="mt-4 text-gray-600 dark:text-gray-400">
