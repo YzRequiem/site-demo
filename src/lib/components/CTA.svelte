@@ -3,11 +3,11 @@
 
 
 	 export let tabCTA = {}
+	 export let borderImage = 'sm:rounded-tl-[30px] md:rounded-tl-[60px]'
 
-	 let buttonAttributs = {
-        href: '#',
-        text: "Commencez aujourd'hui",
-    };
+	 export  let buttonAttributs = {
+		
+	};
 
 
     // export let tabCTA =
@@ -24,8 +24,8 @@
 
 </script>
 
-<section class="overflow-hidden bg-transparent sm:grid sm:grid-cols-2 sm:items-center py-5">
-	<div class="p-8 md:p-12 lg:px-16 lg:py-24">
+<section class="overflow-hidden bg-transparent flex xl:flex-row flex-col justify-evenly sm:items-center py-5">
+	<div class="p-8 md:p-12 lg:px-16 lg:py-24 ">
 		<div class="mx-auto max-w-xl text-center sm:text-left">
 			<h2 class="text-2xl font-bold text-gray-900 md:text-3xl dark:text-gray-200">
 				{tabCTA.title}
@@ -44,6 +44,6 @@
 	<img
 		alt={tabCTA.alt}
 		src={tabCTA.src}
-		class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
+		class="h-full 2xl:max-w-5xl max-w-xl object-cover sm:h-[calc(100%_-_2rem)] sm:self-center  md:h-[calc(100%_-_4rem)] {borderImage} "
 	/>
 </section>

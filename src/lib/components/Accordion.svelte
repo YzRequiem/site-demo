@@ -2,6 +2,7 @@
 	import { AccordionItem, Accordion } from 'flowbite-svelte';
 	import { Img } from 'flowbite-svelte';
 	import HeadingTitle from './HeadingTitle.svelte';
+	import HeadingParagraph from './HeadingParagraph.svelte';
 
 	let titleStats = 'Les Statistiques';
 	export let imagesTabAccordion = [];
@@ -21,6 +22,8 @@
 <section class="flex justify-center mt-20">
 	<div class="lg:w-8/12 ">
 		<HeadingTitle title={titleStats} />
+		<HeadingParagraph />
+
 	</div>
 </section>
 <section class="w-full my-5 flex items-center justify-center py-5">

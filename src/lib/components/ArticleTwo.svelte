@@ -5,9 +5,8 @@
 		
 	};
 
-	let buttonAttributs = {
-        href: '#',
-        text: "Commencez aujourd'hui",
+	export let buttonAttributs = {
+        
     };
 </script>
 

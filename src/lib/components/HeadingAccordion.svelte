@@ -1,6 +1,7 @@
 <script>
 	import { Tabs, TabItem } from 'flowbite-svelte';
 	import HeadingTitle from './HeadingTitle.svelte';
+	import HeadingParagraph from './HeadingParagraph.svelte';
 	let titleStocks = 'Gestion de Stocks';
 
 	const tabAccordion = [
@@ -31,6 +32,8 @@
 <section class="flex justify-center  mt-20">
 	<div class="lg:w-8/12 ">
 		<HeadingTitle title={titleStocks} />
+		<HeadingParagraph />
+
 	</div>
 </section>
 
