@@ -3,8 +3,9 @@
 	import SvGdividerBottom from "./SVGdividerBottom.svelte";
   </script>
   
-  <SvGdividerBottom />
-  
+  <div class="dark:bg-gray-900">
+    <SvGdividerBottom  />
+  </div>
   <Footer footerType="socialmedia">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">

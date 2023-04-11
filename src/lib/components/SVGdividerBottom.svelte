@@ -13,7 +13,7 @@ export let color ='shapedividers_com-1603';
 
 </script>
 
-<div class='{color} h-32 bg-gray-900' />
+<div class='{color} h-32 bg-transparent' />
 
 <style>
 

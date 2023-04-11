@@ -25,9 +25,12 @@
         <!-- <div class="bg-red-400 w-96 h-96 absolute z-10"></div>
         <div class="bg-blue-400 w-96 h-96 relative m-20 mx-56 "></div> -->
        
-
-            <img src={twoImgContent.src} alt={twoImgContent.alt} class="rounded-xl  w-60 sm:w-96  sm:h-96 absolute z-10">
-           <img src={twoImgContent.srcTwo} alt={twoImgContent.altTwo} class="rounded-xl  w-60 sm:w-96 sm:h-96 relative m-20 mx-56">  
+            <div>
+                <img src={twoImgContent.src} alt={twoImgContent.alt} class="rounded-xl shadow-2xl shadow-black w-60 sm:w-96  sm:h-96 absolute z-10">
+            </div>
+            <div>
+                <img src={twoImgContent.srcTwo} alt={twoImgContent.altTwo} class="rounded-xl shadow-2xl shadow-black w-60 sm:w-96 sm:h-96 relative m-20 mx-56">  
+            </div>
        
     </article>
 

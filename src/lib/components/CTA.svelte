@@ -4,10 +4,8 @@
 
 	 export let tabCTA = {}
 	 export let borderImage = 'sm:rounded-tl-[30px] md:rounded-tl-[60px]'
-
-	 export  let buttonAttributs = {
-		
-	};
+	export let layout = 'xl:flex-row'
+	 export  let buttonAttributs = {};
 
 
     // export let tabCTA =
@@ -24,7 +22,7 @@
 
 </script>
 
-<section class="overflow-hidden bg-transparent flex xl:flex-row flex-col justify-evenly sm:items-center py-5">
+<section class="overflow-hidden bg-transparent flex {layout} flex-col justify-evenly sm:items-center py-5">
 	<div class="p-8 md:p-12 lg:px-16 lg:py-24 ">
 		<div class="mx-auto max-w-xl text-center sm:text-left">
 			<h2 class="text-2xl font-bold text-gray-900 md:text-3xl dark:text-gray-200">

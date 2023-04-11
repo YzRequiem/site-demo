@@ -20,7 +20,7 @@
 			<dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
 				{#each iconsTab as box}
 					<div
-						class="flex flex-col {box.bgbox} justify-center rounded-lg border-gray-500 px-4 py-8 text-center border p-8 shadow-xl transition hover:border-[#23B7E5] hover:shadow-[#23B7E5] cursor-pointer"
+						class="flex flex-col {box.bgbox} justify-center rounded-lg dark:border-gray-500 px-4 py-8 text-center border p-8 shadow-xl transition hover:border-[#23B7E5] hover:shadow-[#23B7E5] cursor-pointer"
 					>
 						{#if box.title}
 							<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
