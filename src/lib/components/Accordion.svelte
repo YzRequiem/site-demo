@@ -5,6 +5,7 @@
 	import HeadingParagraph from './HeadingParagraph.svelte';
 
 	let titleStats = 'Les Statistiques';
+	let statIntro ="Synthétisme et efficacité sont les maîtres mots pour une description du tableau de bord. Quelque soit la taille votre entreprise, vous trouverez sur le board tous les indicateurs importants à vos prises de décisions et d'analyse. Grâce au « tout-en-un » proposé par notre application Silver-Stock, le tableau de bord se consulte en un coup d'oeil, et un panel statistique des plus complets s'offre à vous avec une facilité de lecture et une intuitivité remarquable. Du chiffre d'affaire au nombre de nouveaux clients, en passant par le panier moyen et le classement des meilleures ventes en direct (et bien d'autres indicateurs), la puissance synthétisée des tendances globales de votre activité se trouve ici."
 	export let imagesTabAccordion = [];
 
 	export let sectionsTabAccordion = [];
@@ -19,10 +20,10 @@
 
 </script>
 
-<section class="flex justify-center mt-20">
+<section id="statistiques" class="flex justify-center mt-20">
 	<div class="lg:w-8/12 ">
 		<HeadingTitle title={titleStats} />
-		<HeadingParagraph />
+		<HeadingParagraph content = {statIntro} />
 
 	</div>
 </section>

@@ -11,7 +11,7 @@
 
 let ctaStocks = {
             title: 'Maitrisez vos stocks',
-            content: "Toute la chaîne de vie d'un produit au sein de l'entreprise est gérée par l'application, de son arrivée au dépôt à sa remise au client lors de la finalisation de la vente.Grâce à un algorithme de prévision des besoins basé sur les statistiques de ventes des semaines précédentes, les commandes sont optimisées au plus juste pour les semaines à venir. De fait, tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes, vous pourrez vous targuer d'avoir à disposition l'outil calculant vos besoins au plus juste, comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de difficultés d'approvisionnement. Ainsi, vous éviterez facilement les immobilisations financières inutiles et les ruptures dans le même temps ! ",
+            content: "Toute la chaîne de vie d'un produit au sein de l'entreprise est gérée par l'application, de son arrivée au dépôt à sa remise au client lors de la finalisation de la vente. Grâce à un algorithme de prévision des besoins basé sur les statistiques de ventes des semaines précédentes, les commandes sont optimisées au plus juste pour les semaines à venir. De fait, tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes, vous pourrez vous targuer d'avoir à disposition l'outil calculant vos besoins au plus juste, comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de difficultés d'approvisionnement. Ainsi, vous éviterez facilement les immobilisations financières inutiles et les ruptures dans le même temps ! ",
             src: '/entrepot.jpg',
             alt: 'Entrepot',
 			buttonHref: '/offres',
@@ -20,7 +20,7 @@ let ctaStocks = {
 	
 let ctaVentes  =	{
 		title: 'Optimizez vos ventes',
-		content: "Grâce à une fiche client optimisée à son maximum cela vous permettra d’accéder instantanément aux informations concernant chaque client, ce qui vous fait gagner un temps précieux. En analysant votre fichier client, vous pouvez anticiper les besoins de vos clients et leur apporter des solutions adaptées à leurs besoins. Pour améliorer la satisfaction de vos clients, il est important de trier l’information afin de ne retenir que les données vraiment utiles à vos relations commerciales.",
+		content: "Nous fournissons des données dynamiques sur chaque magasin et au niveau du groupe afin d'établir une source unique de vérité sur vos informations. Ces données analytiques au niveau des articles permettent d'améliorer la précision des stocks, de maximiser la disponibilité des articles dans l'espace de vente et de réduire les ruptures de stock afin d'optimiser les ventes, la fidélité à la marque et l'expérience client. Grâce à une fiche client optimisée à son maximum cela vous permettra d’accéder instantanément aux informations concernant chaque client, ce qui vous fait gagner un temps précieux. En analysant votre fichier client, vous pouvez anticiper les besoins de vos clients et leur apporter des solutions adaptées à leurs besoins. Pour améliorer la satisfaction de vos clients, il est important de trier l’information afin de ne retenir que les données vraiment utiles à vos relations commerciale.",
 		src: '/vente.webp',
 		alt: 'Vente',
 		buttonHref: '/offres',
@@ -30,7 +30,7 @@ let ctaVentes  =	{
 let communication = {
 		title: 'Communiquez avec vos equipes !',
 		content:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius quidem quam repellat.',
+			"Communiquez et partagez des documments avec vos équipes en temps réel à partir de notre appareil de communication interne à l'application. ",
 		src: '/comunicate.jpg',
 		alt: 'comunicate',
 		buttonHref: '#',
@@ -40,7 +40,7 @@ let communication = {
 let header3icons = {
 		title: 'Gérez votre commerce en toute simplicité',
 		content:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore provident impedit esse recusandae facere libero harum sequi.'
+			"Notre application répond aux besoins spécifiques des propriétaires de commerce en leur offrant un système de gestion des stocks efficace, des statistiques de ventes en temps réel et un optimisateur de vente performant. Gérez votre commerce en toute simplicité grâce à notre solution complète."
 	};
 	
 let tabIcons = [

@@ -32,6 +32,7 @@
 	"type": "module",
 	"dependencies": {
 		"@popperjs/core": "^2.11.6",
+		"@tabler/icons-svelte": "^2.15.0",
 		"classnames": "^2.3.2",
 		"flowbite": "^1.6.4",
 		"flowbite-svelte": "^0.34.2",

@@ -5,7 +5,7 @@
     let color = "shapedividers_com-1602" ;
     export let header = {
         title: 'Une application ergonomique et sécurisée',
-        content: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+        content: "Lorsque nous avons créé notre application, l'ergonomie et la sécurité ont été nos priorités absolues. Nous savons que nos utilisateurs attendent une expérience fluide et intuitive, mais ils doivent également se sentir en sécurité lorsqu'ils l'utilisent. Nous avons conçu une interface utilisateur simple et intuitive qui permet à chacun de naviguer dans l'application sans effort. ",
     };
 </script>
 

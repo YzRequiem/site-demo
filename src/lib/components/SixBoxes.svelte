@@ -1,10 +1,11 @@
 <script>
+
 	export let boxesContent = [
 	];
+
 </script>
 
 <section class="bg-transparent " >
-
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 ">
 		<div class="mx-auto max-w-lg text-center">
 			<h2 class="text-3xl font-bold sm:text-4xl">Bénéficiez d'une vue d'ensemble</h2>
@@ -23,8 +24,7 @@
 					href={box.href}
 				>
 					
-				<img class="h-10 w-10 fill-pink-500" src={box.src} alt={box.alt}/>
-				
+				<svelte:component this={box.component} size={36} color="#E74694" />
 
 					<h3 class="text-xl font-bold mb-2">{box.title}</h3>
 
