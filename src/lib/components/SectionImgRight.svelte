@@ -9,8 +9,8 @@
             <div class="test w-3 h-1/2"></div>
         </div>
         <div class="flex flex-col gap-10 xl:gap-20  text-center w-3/6 mb-10 xl:m-0">
-            <h2 class="text-xl xl:text-3xl ">Tous les chiffres à portée de main</h2>
-            <p class="xl:text-xl">
+            <h2 class="text-xl xl:text-3xl text-white ">Tous les chiffres à portée de main</h2>
+            <p class="xl:text-xl text-gray-300">
                 Décisions professionnelles plus réfléchies grâce à un accès en temps réel à toutes vos données d'entreprises importantes, partout et à tout moment.
             </p>
         </div>
