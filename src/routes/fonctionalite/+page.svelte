@@ -117,7 +117,7 @@ let headerVendeurs = {
 let communication = {
 		title: 'Communiquez avec vos equipes !',
 		content:
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius quidem quam repellat.',
+			"La messagerie interne de l'application vous permet de communiquer avec vos équipes en temps réel. Vous pouvez envoyer des messages à vos vendeurs, managers, administrateurs et bien plus encore.",
 		src: '/message.jpg',
 		alt: 'comunicate',
 		buttonHref: '#',
