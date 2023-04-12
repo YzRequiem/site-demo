@@ -11,21 +11,21 @@
 		{
 			title: 'Gestion des stocks',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...',
+				'Visualisez l’ensemble de vos stocks ',
 			src: '/appStocks1.png',
 			alt: 'Stocks des boutiques'
 		},
 		{
 			title: "Gestion d'un stock boutique",
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...',
+				' Visualisez et gérez l\'etat des stocks de chaque boutique',
 			src: '/appStocks2.png',
 			alt: 'Stocks des boutiques'
 		},
 		{
 			title: 'Détails réassort',
 			content:
-				'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...',
+				'Consultez les détails des réassorts',
 			src: '/appStocks3.png',
 			alt: 'Stocks des boutiques'
 		}

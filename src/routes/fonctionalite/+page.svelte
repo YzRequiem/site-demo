@@ -84,7 +84,7 @@ let sectionsTabAccordion = [
     {
         title: 'Statistiques journalières',
         content:
-            "Consultez en détail vos statistiques journalières en temps réel et suivez vos performances en les comparant aux statistiques de l'année précédente'. "
+            "Consultez en détail vos statistiques journalières en temps réel et suivez vos performances en les comparant aux statistiques de l'année précédente. "
     },
     {
         title: 'Statistiques Vendeurs ',
@@ -133,11 +133,36 @@ let borderImage = 'rounded-lg'
 
 let ficheProduit = {
         title: 'Fiche Produit',
-        content: "La fiche produit de notre application vous permet de suivre et de gérer toutes les informations importantes de vos produits en un seul endroit. Vous pouvez facilement visualiser le prix d'achat et de vente de chaque produit, ainsi que la marge bénéficiaire générée. La section de gestion des stocks vous permet de surveiller les niveaux de stock en temps réel et de mettre à jour les quantités en fonction des ventes ou des réapprovisionnements. Vous pouvez également accéder aux codes-barres de chaque produit pour faciliter la gestion des transactions en magasin. Les raccourcis pour modifier les produits permettent une mise à jour rapide des informations. La visualisation graphique des données de vente vous permet de suivre les tendances de vos produits au fil du temps. De plus, la fonctionnalité de produits associés permet de recommander facilement des produits complémentaires à vos clients, augmentant ainsi les ventes. Enfin, les commentaires sur le produit faits par les vendeurs permettent une collaboration en interne pour améliorer la qualité des produits et la satisfaction de vos clients. ",
+        //content: "La fiche produit de notre application vous permet de suivre et de gérer toutes les informations importantes de vos produits en un seul endroit. Vous pouvez facilement visualiser le prix d'achat et de vente de chaque produit, ainsi que la marge bénéficiaire générée. La section de gestion des stocks vous permet de surveiller les niveaux de stock en temps réel et de mettre à jour les quantités en fonction des ventes ou des réapprovisionnements. Vous pouvez également accéder aux codes-barres de chaque produit pour faciliter la gestion des transactions en magasin. Les raccourcis pour modifier les produits permettent une mise à jour rapide des informations. La visualisation graphique des données de vente vous permet de suivre les tendances de vos produits au fil du temps. De plus, la fonctionnalité de produits associés permet de recommander facilement des produits complémentaires à vos clients, augmentant ainsi les ventes. Enfin, les commentaires sur le produit faits par les vendeurs permettent une collaboration en interne pour améliorer la qualité des produits et la satisfaction de vos clients. ",
         src: '/ficheProduit.png',
         alt: 'fiche Produit',
 		
 };
+
+let tabList = [
+	{
+        content: 'Visualiser facilement les prix d\'achat et de vente de chaque produit, ainsi que la marge bénéficiaire générée.',
+    },
+    {
+        content: 'Gérer les niveaux de stock en temps réel et mettre à jour les quantités en fonction des ventes ou des réapprovisionnements.',
+    },
+    {
+        content: 'Accéder aux codes-barres de chaque produit pour faciliter la gestion des transactions en magasin.',
+    },
+    {
+        content: 'Modifier rapidement les informations sur les produits grâce à des raccourcis pratiques.',
+    },
+    {
+        content: 'Suivre les tendances de vente de vos produits grâce à une visualisation graphique des données.',
+    },
+    {
+        content: 'Recommander facilement des produits complémentaires à vos clients pour augmenter les ventes.',
+    },
+    {
+        content: 'Collaborer en interne pour améliorer la qualité des produits et la satisfaction des clients grâce aux commentaires sur les produits faits par les vendeurs.',
+    }
+
+];
 
 let btnFicheProduit = {     
     href: '/',
@@ -246,7 +271,7 @@ let tabIcons = [
 	
     <ArticleCarrousel />
 
-    <Cta layout="xl:flex-row-reverse" {borderImage} tabCTA = {ficheProduit}   buttonAttributs ={btnFicheProduit}/>
+    <Cta layout="xl:flex-row-reverse" {tabList} {borderImage} tabCTA = {ficheProduit}   buttonAttributs ={btnFicheProduit}/>
    
     <!-- Section Clients -->
 
@@ -268,6 +293,7 @@ let tabIcons = [
     </section>
 
     <ThreeIcons header={header3icons} iconsTab={tabIcons}  />
+
     
 </main>
 

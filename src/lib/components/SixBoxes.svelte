@@ -10,10 +10,7 @@
 		<div class="mx-auto max-w-lg text-center">
 			<h2 class="text-3xl font-bold sm:text-4xl">Bénéficiez d'une vue d'ensemble</h2>
 
-			<p class="mt-4 dark:text-gray-300">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-				nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
-			</p>
+			
 		</div>
 
 		<div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
