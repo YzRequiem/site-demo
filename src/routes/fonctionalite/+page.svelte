@@ -79,12 +79,12 @@ let sectionsTabAccordion = [
     {
         title: 'Moyenne de vente horaire',
         content:
-            'Est ce que vous connaissez la moyenne de vente horaire de votre magasin ? Avec l\'application vous pouvez suivre les ventes moyennes horaires de votre magasin. '
+            "Optimisez la gestion de votre personnel en suivant la vente moyenne horaire de votre magasin, pour ajuster les horaires en fonction de l'affluence  et améliorez votre stratégie de vente en conséquence."
     },
     {
         title: 'Statistiques journalières',
         content:
-            "Consultez en détail vos statistiques journalières en temps réel et suivez vos performances en les comparant aux statistiques de l'année précédente. "
+            "Consultez en détail vos statistiques journalières en temps réel et suivez vos performances en les comparant aux statistiques de l'année précédente et managez vos équipes en conséquence. "
     },
     {
         title: 'Statistiques Vendeurs ',
@@ -94,7 +94,7 @@ let sectionsTabAccordion = [
     {
         title: 'Statistiques Produits',
         content:
-            'Triez et consultez des statistiques détaillés sur vos produits, leurs ventes, chiffre d\'affaire et bénéfices apportés. '
+            'Identifiez les produits les plus populaires auprès de vos clients en analysant les statistiques produits, et adaptez votre offre en conséquence.'
     }
 ];
 
@@ -142,9 +142,6 @@ let ficheProduit = {
 let tabList = [
 	{
         content: 'Visualiser facilement les prix d\'achat et de vente de chaque produit, ainsi que la marge bénéficiaire générée.',
-    },
-    {
-        content: 'Gérer les niveaux de stock en temps réel et mettre à jour les quantités en fonction des ventes ou des réapprovisionnements.',
     },
     {
         content: 'Accéder aux codes-barres de chaque produit pour faciliter la gestion des transactions en magasin.',

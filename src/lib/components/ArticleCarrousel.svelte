@@ -34,16 +34,15 @@
 					</h2>
 
 					<p class="mt-4 text-gray-600">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
-						esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
-						architecto eius quis quibusdam fugiat dicta.
+						Recherchez et gérez vos gammes liquides de manière simple avec un système de tag.
+						Cumulez les tags pour affiner vos recherches et trouver rapidement les produits que vous cherchez.
 					</p>
 
 					<a
 						href="/"
 						class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
 					>
-						Get in Touch
+						Essayez maintenant
 					</a>
 				</div>
 			</div>
