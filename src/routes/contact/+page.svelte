@@ -1,9 +1,15 @@
 <script>
  
+import { superForm } from "sveltekit-superforms/client"
+import SuperDebug from "sveltekit-superforms/client/SuperDebug.svelte"
+export let data;
+
+const { form, errors, enhance, constraints } = superForm(data.form)
+
 </script>
 
+<SuperDebug data={$form} />
 
-<!-- ====== Contact Section Start -->
 <section class="dark:bg-gray-900 py-20 lg:py-[120px] overflow-hidden relative z-10">
    <div class="container">
       <div class="flex flex-wrap lg:justify-between -mx-4">
@@ -36,10 +42,13 @@
          </div>
          <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-               <form>
+               <form method="POST" use:enhance>
                   <div class="mb-6">
                      <input
+                        name="name"
                         type="text"
+                        bind:value={$form.name}
+                        {...constraints.name}
                         placeholder="Nom"
                         class="
                         w-full
@@ -52,10 +61,17 @@
                         focus:border-primary
                         "
                         />
+                        {#if $errors.name}
+                        <div class="text-red-500 text-sm mb-4">{$errors.name}</div>
+                        {/if}
                   </div>
+                  <small></small>
                   <div class="mb-6">
                      <input
+                        name="email"
                         type="email"
+                        bind:value={$form.email}
+                        {...constraints.email}
                         placeholder="Email"
                         class="
                         w-full
@@ -68,10 +84,16 @@
                         focus:border-primary
                         "
                         />
+                        {#if $errors.email}
+                        <div class="text-red-500 text-sm mb-4">{$errors.email}</div>
+                        {/if}
                   </div>
                   <div class="mb-6">
                      <input
+                        name="phone"
                         type="text"
+                        bind:value={$form.phone}
+                        {...constraints.phone}
                         placeholder="Téléphone"
                         class="
                         w-full
@@ -84,10 +106,16 @@
                         focus:border-primary
                         "
                         />
+                        {#if $errors.phone}
+                        <div class="text-red-500 text-sm mb-4">{$errors.phone}</div>
+                        {/if}
                   </div>
                   <div class="mb-6">
                      <textarea
+                        name="message"
                         rows="6"
+                        bind:value={$form.message}
+                        {...constraints.message}
                         placeholder="Votre Message"
                         class="
                         w-full
@@ -101,6 +129,9 @@
                         focus:border-primary
                         "
                         ></textarea>
+                        {#if $errors.message}
+                        <div class="text-red-500 text-sm mb-4">{$errors.message}</div>
+                        {/if}
                   </div>
                   <div>
                      <button
