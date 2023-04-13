@@ -36,6 +36,7 @@
 					<p class="mt-4 text-gray-600">
 						Recherchez et gérez vos gammes liquides de manière simple avec un système de tag.
 						Cumulez les tags pour affiner vos recherches et trouver rapidement les produits que vous cherchez.
+						La gestion de vos gammes liquides n'a jamais été aussi simple et boostera la formation et l'autonomie de vos équipes.
 					</p>
 
 					<a
