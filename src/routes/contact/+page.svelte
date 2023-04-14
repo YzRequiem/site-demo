@@ -55,6 +55,8 @@ const { form, errors, enhance, constraints } = superForm(data.form)
                         rounded
                         py-3
                         px-[14px]
+                        { $errors.name ? 'border-red-500' : '' }
+
                         border border-[f0f0f0]
                         outline-none
                         focus-visible:shadow-none
@@ -62,7 +64,7 @@ const { form, errors, enhance, constraints } = superForm(data.form)
                         "
                         />
                         {#if $errors.name}
-                        <div class="text-red-500 text-sm mb-4">{$errors.name}</div>
+                        <div class="text-red-500 text-sm mb-4">{$errors.name[0]}</div>
                         {/if}
                   </div>
                   <small></small>
@@ -74,6 +76,7 @@ const { form, errors, enhance, constraints } = superForm(data.form)
                         {...constraints.email}
                         placeholder="Email"
                         class="
+                        { $errors.email ? 'border-red-500' : '' }
                         w-full
                         rounded
                         py-3
@@ -85,7 +88,7 @@ const { form, errors, enhance, constraints } = superForm(data.form)
                         "
                         />
                         {#if $errors.email}
-                        <div class="text-red-500 text-sm mb-4">{$errors.email}</div>
+                        <div class="text-red-500 text-sm mb-4">{$errors.email[0]}</div>
                         {/if}
                   </div>
                   <div class="mb-6">
@@ -100,6 +103,8 @@ const { form, errors, enhance, constraints } = superForm(data.form)
                         rounded
                         py-3
                         px-[14px]
+                        { $errors.phone ? 'border-red-500' : '' }
+
                         border border-[f0f0f0]
                         outline-none
                         focus-visible:shadow-none
@@ -122,6 +127,8 @@ const { form, errors, enhance, constraints } = superForm(data.form)
                         rounded
                         py-3
                         px-[14px]
+                        { $errors.message ? 'border-red-500' : '' }
+
                         border border-[f0f0f0]
                         resize-none
                         outline-none
