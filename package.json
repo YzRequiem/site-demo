@@ -38,6 +38,7 @@
 		"classnames": "^2.3.2",
 		"flowbite": "^1.6.4",
 		"flowbite-svelte": "^0.34.2",
+		"mailgun.js": "^8.2.1",
 		"pocketbase": "^0.12.1",
 		"svelte-heros-v2": "^0.4.2",
 		"svelte-inview": "^4.0.0"
