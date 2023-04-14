@@ -1,5 +1,5 @@
 <script>
-	import Cta from "../../lib/components/CTA.svelte";
+	import Cta from "$lib/components/CTA.svelte";
 
     let presentation  =	{
 		title: "Silver-Stock, qu'est-ce que c'est ?",
@@ -35,12 +35,11 @@
                     vapoteurs, en étant proactif : en proposant des vrais services, en vous proposant un accompagnement
                     personnalisé dans une relation de confiance sincère.
                     <p>
-                        J’ai voulu, à travers notre historie et nos investissements, à travers notre ancrage bleu
+                        J’ai voulu, à travers notre histoire et nos investissements, à travers notre ancrage bleu
                         blanc rouge, apporter à la cigarette électronique toutes ses lettres de noblesse.
                     </p>
                     <p>
-                        Je suis convaincu que tout cet ensemble, est autant de façons et de raisons de,
-                        naturellement, préférer Silver Stock. Silver-Stock a créé d'infinies possibilités que nous
+                        Silver-Stock a créé d'infinies possibilités que nous
                         n'avions pas avant.
                 </p>
     
@@ -64,7 +63,7 @@
             <div class="lg:flex lg:items-center py-10">
                 <div class="w-full space-y-12 lg:w-1/2 ">
                     <div>
-                        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br> awesome Components</h1>
+                        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Une application <br> ERP / CRM </h1>
     
                         <div class="mt-2">
                             <span class="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
@@ -81,11 +80,16 @@
                         </span>
     
                         <div class="mt-4 md:mx-4 md:mt-0">
-                            <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h1>
+                            <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Un outil analytique</h1>
     
                             <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                            </p>
+                                Nous avons mis l'accent lors du développement de Silver-Stock sur
+                                multitude d'outils d’analyses statistiques.
+                                En temps réel ou sur une période donnée, nous pouvons avoir à disposition visuelle
+                                l'ensemble des ventes réalisées au sein de nos boutiques, les volumes de sortie de
+                                chacun des produits de notre catalogue, le nombre de nouveaux clients, de ventes
+                                réalisées, le bénéfice produit, le chiffre d'affaire global ou par magasin, et bien d'autres
+                                indicateurs essentiels à la bonne gestion d'une boutique, ou d'un réseau de magasins !                            </p>
                         </div>
                     </div>
     
@@ -97,11 +101,16 @@
                         </span>
     
                         <div class="mt-4 md:mx-4 md:mt-0">
-                            <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configrations</h1>
+                            <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Experience utilisateur</h1>
     
                             <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                            </p>
+                                À propos de l'expérience utilisateurs, qui est pour nous l'une des clés de l'efficacité
+                                de l'application, nous avons choisi de mettre en œuvre tout les moyens de développement
+                                autours du cœur de Silver-Stock, ainsi, nous pouvons proposer une solution « tout-en-
+                                un » des plus intuitives.
+                                D'un coup d'oeil, vous saurez comment naviguer entre les possibilités offertes, comment
+                                retrouver les indicateurs qui vous sont importants, comment consulter des messages ou
+                                comment mettre en place des règles promotionnelles et des challenges de vente                            </p>
                         </div>
                     </div>
     
@@ -133,83 +142,5 @@
     
         </div>
     </section>
-    
-    <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        <div class="px-4 py-8 sm:px-0">
-            <h2 class="text-2xl font-bold mb-4">Silver-Stock, qu'est-ce que c'est ?</h2>
-            <p class="mb-6">
-                Issue d'un travail mené depuis 2015, l'application Silver-Stock est aujourd'hui à son stade le
-                plus abouti et le plus fonctionnel. Développée par la synergie créée par des brainstorming
-                hebdomadaires entre les différents acteurs de deux entreprises de cigarette électronique
-                (équipes de ventes, préparateurs de commandes, responsables des achats, pôle managérial...) et
-                l'équipe de développement, ce projet s'est inscrit dans la modernisation de nos outils de
-                gestion, jusqu'à en devenir un élément central et essentiel, nous ayant permis de nous
-                démarquer des autres entreprises du secteur.
-            </p>
-            <p class="mb-6">
-                Toute la chaîne de vie d'un produit au sein de l'entreprise est gérée par l'application, de
-                son arrivée au dépôt à sa remise au client lors de la finalisation de la vente. Grâce à un
-                algorithme de prévision des besoins basé sur les statistiques de ventes des semaines
-                précédentes, les commandes sont optimisées au plus juste pour les semaines à venir. De fait,
-                tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes,
-                nous pouvons nous targuer d'avoir à disposition l'outil calculant nos besoins au plus juste,
-                comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de
-                difficultés d'approvisionnement. Ainsi, nous évitons facilement les immobilisation financières
-                inutiles et les ruptures dans le même temps !
-            </p>
-            <p class="mb-6">
-                D'autre part, nous avons mis l'accent lors du développement de Silver-Stock sur une multitude
-                d'outils d’analyses statistiques. En temps réel ou sur une période donnée, nous pouvons avoir
-                à disposition visuelle l'ensemble des ventes réalisées au sein de nos boutiques, les volumes
-                de sortie de chacun des produits de notre catalogue, le nombre de nouveaux clients, de ventes
-                réalisées, le bénéfice produit, le chiffre d'affaire global ou par magasin,
-            </p>
-            <p class="mb-6">
-                et bien d'autres encore ! Nous pouvons ainsi, en un coup d'œil, avoir une vision globale de
-                l'activité de nos magasins, et nous permettre de prendre les bonnes décisions en temps réel.
-            </p>
-            <p class="mb-6">
-                Enfin, nous avons mis en place un système de gestion des stocks et des commandes qui nous
-                permet de suivre en temps réel l'ensemble des commandes en cours, et de gérer les retours
-                clients. Nous pouvons ainsi, en un coup d'œil, avoir une vision globale de l'activité de nos
-                magasins, et nous permettre de prendre les bonnes décisions en temps réel.
-            </p>
-    
-            <h2 class="text-2xl font-bold mb-4">Nos valeurs</h2>
-            <p class="mb-6">
-                Silver-Stock est une application développée par des passionnés de cigarette électronique, qui
-                ont à cœur de vous proposer les meilleurs produits du marché, à des prix compétitifs. Nous
-                sommes une entreprise familiale, et nous avons à cœur de vous proposer des produits de
-                qualité, et de vous accompagner dans votre démarche de sevrage tabagique.
-            </p>
-            <p class="mb-6">
-                Nous sommes une entreprise familiale, et nous avons à cœur de vous proposer des produits de
-                qualité, et de vous accompagner dans votre démarche de sevrage tabagique.
-            </p>
-            <p class="mb-6">
-                Nous sommes une entreprise familiale, et nous avons à cœur de vous proposer des produits de
-                qualité, et de vous accompagner dans votre démarche de sevrage tabagique.
-            </p>
-    
-            <h2 class="text-2xl font-bold mb-4">Notre équipe</h2>
-            <p class="mb-6">
-                Silver-Stock est une application développée par des passionnés de cigarette électronique, qui
-                ont à cœur de vous proposer les meilleurs produits du marché, à des prix compétitifs. Nous
-                sommes une entreprise familiale, et nous avons à cœur de vous proposer des produits de
-                qualité, et de vous accompagner dans votre démarche de sevrage tabagique.
-            </p>
-            <p class="mb-6">
-                Nous sommes une entreprise familiale, et nous avons à cœur de vous proposer des produits de
-                qualité, et de vous accompagner dans votre démarche de sevrage tabagique.
-            </p>
-    
-            <h2 class="text-2xl font-bold mb-4">Nos partenaires</h2>
-            <p class="mb-6">
-                Silver-Stock est une application développée par des passionnés de cigarette électronique, qui
-                ont à cœur de vous proposer les meilleurs produits du marché, à des prix compétitifs. Nous
-                sommes une entreprise familiale, et nous avons à cœur de vous proposer des produits de
-                qualité, et de vous accompagner dans votre démarche de sevrage tabagique.
-            </p>
-        </div>
-    </main>
+   
 </main>
