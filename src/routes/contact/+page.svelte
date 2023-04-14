@@ -8,7 +8,7 @@ const { form, errors, enhance, constraints } = superForm(data.form)
 
 </script>
 
-<SuperDebug data={$form} />
+<!-- <SuperDebug data={$form} /> -->
 
 <section class="dark:bg-gray-900 py-20 lg:py-[120px] overflow-hidden relative z-10">
    <div class="container">
