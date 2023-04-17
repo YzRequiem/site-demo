@@ -188,7 +188,7 @@ let titleParameters = "Secutrité et paramètres"
 let header3icons = {
 		title: 'SilverStock ce veut d\'être une application sécurisée',
 		content:
-			"En termes de sécurité, nous avons mis en place plusieurs mesures pour protéger les données de nos utilisateurs. Nous utilisons des protocoles de sécurité avancés pour garantir que toutes les données sont protégées pendant la transmission. Nous avons également mis en place des contrôles d'accès stricts pour nous assurer que seules les personnes autorisées ont accès aux informations sensibles."
+			"En termes de sécurité, nous avons mis en place plusieurs mesures pour protéger les données de nos utilisateurs. Nous utilisons des protocoles de sécurité avancés pour garantir que toutes les données soient protégées pendant la transmission. Nous avons également mis en place des contrôles d'accès stricts pour nous assurer que seules les personnes autorisées ont accès aux informations sensibles."
 };
 	
 let tabIcons = [

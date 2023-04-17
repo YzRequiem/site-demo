@@ -20,18 +20,21 @@ let tabIcons = [
 			src: '/svg/box.svg',
 			alt: 'Stock',
 			width : 'w-14 h-14',
+			href: '#stock'
 		},
 		{
 			title: 'Statistiques de ventes en temps réel',
 			src: '/svg/stats.svg',
 			alt: 'Statistiques',
-			width : 'w-14 h-14'
+			width : 'w-14 h-14',
+			href: '#info'
 		},
 		{
 			title: 'Optimisateur de ventes',
 			src: '/svg/fuse.svg',
 			alt: 'Fusée',
-			width : 'w-14 h-14'
+			width : 'w-14 h-14',
+			href: '#ventes'
 		}
 ];
 
@@ -106,10 +109,13 @@ let buttonCom = {
 
 	<ThreeIcons header={header3icons} iconsTab={tabIcons} />
 
+	<div id="stock"></div>
 	<Cta tabCTA = {ctaStocks} buttonAttributs={buttonCta}/>
 
+	<div id ="info"></div>
 	<LeftCta />
 
+	<div id="ventes"></div>
 	<Cta tabCTA = {ctaVentes} buttonAttributs={buttonCta} />
 
 	<TextBanner />

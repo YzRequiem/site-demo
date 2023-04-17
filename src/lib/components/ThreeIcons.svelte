@@ -15,30 +15,32 @@
 				{header.content}
 			</p>
 		</div>
-
+		
 		<div class="mt-8 sm:mt-12">
 			<dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
 				{#each iconsTab as box}
+				<a href={box.href}>
 					<div
-						class="flex flex-col {box.bgbox} justify-center rounded-lg dark:border-gray-500 px-4 py-8 text-center border p-8 shadow-xl transition hover:border-[#23B7E5] hover:shadow-[#23B7E5] cursor-pointer"
+					class="flex flex-col {box.bgbox} justify-center rounded-lg dark:border-gray-500 px-4 py-8 text-center border p-8 shadow-xl transition hover:border-[#23B7E5] hover:shadow-[#23B7E5] cursor-pointer"
 					>
-						{#if box.title}
-							<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
-								{box?.title}
-							</dt>
-						{/if}
-						{#if box.content}
-						<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
-							<p>{box?.content}</p>
-						</dt>
+					{#if box.title}
+					<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
+						{box?.title}
+					</dt>
 					{/if}
-
-						<dd class=" flex justify-center ">
+					{#if box.content}
+					<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">
+						<p>{box?.content}</p>
+					</dt>
+					{/if}
+					
+					<dd class=" flex justify-center ">
 							<img src={box.src} alt={box.alt} class="{box.width}" />
 						</dd>
 					</div>
-				{/each}
-			</dl>
-		</div>
+				</a>
+					{/each}
+				</dl>
+			</div>
 	</div>
 </section>
