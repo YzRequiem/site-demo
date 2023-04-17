@@ -98,11 +98,14 @@ let sectionsTabAccordion = [
     }
 ];
 
-
-
 /*----Section Management------*/
 
 let titleManagement = "Management d'equipes"
+
+let buttonVente = {
+     href: '/contact',
+      text: "Commencez aujourd'hui",
+      };
 
 let headerVendeurs = {
 		title: 'Stats Vendeurs',
@@ -162,8 +165,8 @@ let tabList = [
 ];
 
 let btnFicheProduit = {     
-    href: '/',
-    text: "Commencez aujourd'hui"
+    href: '/contact',
+    text: "Contactez-nous",
 };
 
 /*----Section Client----*/ 
@@ -253,7 +256,7 @@ let tabIcons = [
         </div>
     </section>
     
-    <DeuxImages twoImgContent = {headerVendeurs} />
+    <DeuxImages buttonAttributs= {buttonVente} twoImgContent = {headerVendeurs} />
     
     <ArticleTwo obj = {communication} /> 
 	
@@ -296,7 +299,7 @@ let tabIcons = [
 
 <style>
     .bg-image {
-        background-image: url('/ordiApp.webp');
+        background-image: url('/ordiApp.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

@@ -8,6 +8,11 @@
 		alt: 'Vente',
 }
 
+	let buttonCta = {
+       href: '/contact',
+        text: "Commencez aujourd'hui",
+       };
+
 </script>
 
 <header class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
@@ -17,7 +22,7 @@
 </header>
 <main class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
     
-    <section class="flex justify-center py-20 shadow">
+    <section class="flex justify-center py-32 shadow">
         <article class=" flex w-5/6 items-center justify-evenly flex-wrap ">
             <div class="flex flex-col gap-20 w-3/6">
                 <div class="flex flex-col gap-5">
@@ -43,16 +48,16 @@
                         n'avions pas avant.
                 </p>
     
-            </div>
                 <p>Mossadegh AFRIT - Président Directeur Général</p>
             </div>
-            <div>
-                <img class="max-w-[550px]" src="/pdg.jpg" alt="Mossadegh AFRIT - Président Directeur Général" />
+            </div>
+            <div class="py-5">
+                <img class="max-w-[550px]" src="/Mafrite.jpg" alt="Mossadegh AFRIT - Président Directeur Général" />
             </div>
         </article>
     </section>
     
-    <Cta tabCTA = {presentation} />
+    <Cta buttonAttributs= {buttonCta} tabCTA = {presentation} />
     
     <!-- component -->
     <section class="bg-white dark:bg-gray-900">

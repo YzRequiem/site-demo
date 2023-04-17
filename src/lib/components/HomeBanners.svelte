@@ -2,7 +2,7 @@
 	import ButtonOne from "./ButtonOne.svelte";
 
 	let buttonAttributs = {
-        href: '#',
+        href: '/contact',
         text: "Commencez aujourd'hui",
     };
 

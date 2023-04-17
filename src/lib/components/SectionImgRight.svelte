@@ -17,7 +17,7 @@
     </article>
 
     <article class="xl:w-3/6">
-        <img src="/ordiApp.webp" alt="de l'application">
+        <img src="/ordiApp.png" alt="de l'application">
     </article>
 
 </section>

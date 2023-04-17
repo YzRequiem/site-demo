@@ -40,8 +40,6 @@ let ctaStocks = {
             content: "Toute la chaîne de vie d'un produit au sein de l'entreprise est gérée par l'application, de son arrivée au dépôt à sa remise au client lors de la finalisation de la vente. Grâce à un algorithme de prévision des besoins basé sur les statistiques de ventes des semaines précédentes, les commandes sont optimisées au plus juste pour les semaines à venir. De fait, tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes, vous pourrez vous targuer d'avoir à disposition l'outil calculant vos besoins au plus juste, comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de difficultés d'approvisionnement. Ainsi, vous éviterez facilement les immobilisations financières inutiles et les ruptures dans le même temps ! ",
             src: '/entrepot.jpg',
             alt: 'Entrepot',
-			buttonHref: '/offres',
-			buttonText: 'Get Started Today'
 }
 	
 let ctaVentes  =	{
@@ -57,11 +55,17 @@ let communication = {
 			"Communiquez et partagez des documments avec vos équipes en temps réel à partir de notre appareil de communication interne à l'application. ",
 		src: '/comunicate.jpg',
 		alt: 'comunicate',
-		buttonHref: '#',
-		buttonText: 'Get Started Today'
 };
 
+let buttonCta = {
+     href: '/contact',
+      text: "En savoir plus",
+};
 
+let buttonCom = {
+	 href: '/contact',
+	  text: "Contactez Nous",
+};
 // partenaires
 
 // let headerPartenaires  = {
@@ -102,15 +106,15 @@ let communication = {
 
 	<ThreeIcons header={header3icons} iconsTab={tabIcons} />
 
-	<Cta tabCTA = {ctaStocks} />
+	<Cta tabCTA = {ctaStocks} buttonAttributs={buttonCta}/>
 
 	<LeftCta />
 
-	<Cta tabCTA = {ctaVentes} />
+	<Cta tabCTA = {ctaVentes} buttonAttributs={buttonCta} />
 
 	<TextBanner />
 	
-	<ArticleTwo obj = {communication} />
+	<ArticleTwo obj = {communication} buttonAttributs={buttonCom} />
 
 	<!-- section partenaire -->
 	
