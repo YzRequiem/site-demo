@@ -47,7 +47,7 @@ let ctaStocks = {
 let ctaVentes  =	{
 		title: 'Optimizez vos ventes',
 		content: "Nous fournissons des données dynamiques pour chaque magasin et groupe, améliorant la précision des stocks et la disponibilité des articles pour optimiser les ventes, la fidélité et l'expérience client. Une fiche client optimisée permet d'accéder instantanément aux informations de chaque client pour anticiper leurs besoins et leur fournir des solutions adaptées, améliorant ainsi leur satisfaction.",
-		src: '/vente.webp',
+		src: '/magasin2.png',
 		alt: 'Vente',
 }
 
