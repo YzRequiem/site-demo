@@ -8,7 +8,11 @@ export let data;
 
 const { form, errors, enhance, constraints } = superForm(data.form, {
    
-   onUpdated: ({ form }) => {console.log('hello world');}
+   onResult: ({ result }) => { 
+      if(result.type === 'success'){
+         defaultModal = true
+      };
+   }
 })
 
 </script>
