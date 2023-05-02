@@ -1,10 +1,15 @@
 <script>
  
 import { superForm } from "sveltekit-superforms/client"
+import { Button, Modal } from 'flowbite-svelte'
+let defaultModal =false
 import SuperDebug from "sveltekit-superforms/client/SuperDebug.svelte"
 export let data;
 
-const { form, errors, enhance, constraints } = superForm(data.form)
+const { form, errors, enhance, constraints } = superForm(data.form, {
+   
+   onUpdated: ({ form }) => {console.log('hello world');}
+})
 
 </script>
 
@@ -172,4 +177,15 @@ const { form, errors, enhance, constraints } = superForm(data.form)
       </div>
    </div>
 </section>
+<Modal title="Formulaire soumis" bind:open={defaultModal} autoclose>
+   <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+     Votre message nous a été soumis avec succes.
+   </p>
+   <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+   Nous feront notre maximum pour vous répondre dans les plus brefs délais.
+   </p>
+   <svelte:fragment slot='footer'>
+     <Button>Retour</Button>
+   </svelte:fragment>
+ </Modal>
 <!-- ====== Contact Section End -->
