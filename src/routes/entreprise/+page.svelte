@@ -27,7 +27,7 @@
             <div class="flex flex-col gap-20 w-3/6">
                 <div class="flex flex-col gap-5">
                     <h2 class="text-2xl ">Notre Mission</h2>
-                    <h3 class="text-3xl ">Redefinir la façon dont nous travaillons</h3>
+                    <h3 class="text-3xl ">Redéfinir la façon dont nous travaillons</h3>
                 </div>
                 <div class=" flex flex-col gap-10">
     

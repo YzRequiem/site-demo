@@ -51,7 +51,7 @@ let boxesContent = [
             component: IconUsers
 		},
 		{
-			title: "Secutrité et paramètres",
+			title: "Sécutrité et paramètres",
 			content:
 				"Personnalisez votre application en fonction de vos besoins et assurez la sécurité de vos données grâce à des mesures de sécurité avancées.",
             href:'#securite',
@@ -184,7 +184,7 @@ let ficheClient = {
 
 /*----Section Sécurité----*/ 
 
-let titleParameters = "Secutrité et paramètres"
+let titleParameters = "Sécutrité et paramètres"
 let header3icons = {
 		title: 'SilverStock ce veut d\'être une application sécurisée',
 		content:
