@@ -8,6 +8,7 @@
         { href: '/fonctionalite', label: 'Fonctionalité'},
         { href: '/entreprise', label: 'Entreprise' },
         // { href: '/offres', label: 'Offres' },
+        { href: '/assistance', label: 'assistance'},
         { href: '/contact', label: 'Contact' }
       
     ];
