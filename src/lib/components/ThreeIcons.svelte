@@ -58,10 +58,11 @@
 		</div>
 		
 		<div class="mt-8 sm:mt-12">
-			<div class="flex flex-wrap justify-center -mx-4">
+			<div class="flex flex-wrap justify-center gap-5
+			">
 				{#each iconsTab as box}
-				<a href={box.href} class="mx-4">
-					<div class="flex flex-col max-w-sm min-w-[200px] {box.bgbox} justify-center rounded-lg dark:border-gray-500 px-4 py-8 text-center border p-8 shadow-xl transition hover:border-[#23B7E5] hover:shadow-[#23B7E5] cursor-pointer">
+				<a href={box.href} class="mx-4 ">
+					<div class="flex flex-col min-h-full max-w-xs w-screen {box.bgbox} justify-center rounded-lg dark:border-gray-500 px-4 py-8 text-center border p-8 shadow-xl transition hover:border-[#23B7E5] hover:shadow-[#23B7E5] cursor-pointer">
 						{#if box.title}
 						<dt class="order-last text-lg font-medium text-gray-500 dark:text-gray-400 py-5">{box?.title}</dt>
 						{/if}

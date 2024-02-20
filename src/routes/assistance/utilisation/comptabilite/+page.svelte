@@ -18,24 +18,24 @@
 
 	let tabIcons = [
 		{
-			title: "Se connecter à l'application pour la première fois",
-			href: currentPath + '/connexion'
+			title: 'Gérer le fond de caisse',
+			href: currentPath + '/fond-de-caisse'
 		},
 		{
-			title: 'Configurer les stocks, franchises et entités',
-			href: currentPath + '/stocks/'
+			title: 'Effectuer une Clôture',
+			href: currentPath + '/cloture'
 		},
 		{
-			title: 'Configurer les règles paniers',
-			href: currentPath + '/regles-paniers/'
+			title: 'Editer un journal de caisse',
+			href: currentPath + '/journal-de-caisse'
 		},
 		{
-			title: 'Configurer les mails à destination des clients',
-			href: currentPath + '/mails/'
+			title: 'Corriger une vente validée (modifier paiement)',
+			href: currentPath + '/correction-vente'
 		},
 		{
-			title: 'Configurer les SMS à destination des clients',
-			href: currentPath + '/sms/'
+			title: 'Gérer les factures',
+			href: currentPath + '/factures'
 		}
 	];
 </script>

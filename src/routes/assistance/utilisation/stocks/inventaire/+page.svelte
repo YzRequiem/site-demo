@@ -18,24 +18,20 @@
 
 	let tabIcons = [
 		{
-			title: "Se connecter à l'application pour la première fois",
-			href: currentPath + '/connexion'
+			title: 'Créer un inventaire',
+			href: currentPath + '/creer'
 		},
 		{
-			title: 'Configurer les stocks, franchises et entités',
-			href: currentPath + '/stocks/'
+			title: 'Réaliser un inventaire',
+			href: currentPath + '/realiser'
 		},
 		{
-			title: 'Configurer les règles paniers',
-			href: currentPath + '/regles-paniers/'
+			title: 'Controler un inventaire',
+			href: currentPath + '/controler'
 		},
 		{
-			title: 'Configurer les mails à destination des clients',
-			href: currentPath + '/mails/'
-		},
-		{
-			title: 'Configurer les SMS à destination des clients',
-			href: currentPath + '/sms/'
+			title: 'Demander un inventaire',
+			href: currentPath + '/demander'
 		}
 	];
 </script>

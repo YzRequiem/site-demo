@@ -18,24 +18,28 @@
 
 	let tabIcons = [
 		{
-			title: "Se connecter à l'application pour la première fois",
-			href: currentPath + '/connexion'
+			title: 'Créer un client',
+			href: currentPath + '/creer'
 		},
 		{
-			title: 'Configurer les stocks, franchises et entités',
-			href: currentPath + '/stocks/'
+			title: 'Importer des clients',
+			href: currentPath + '/importer'
 		},
 		{
-			title: 'Configurer les règles paniers',
-			href: currentPath + '/regles-paniers/'
+			title: 'Rechercher des clients',
+			href: currentPath + '/rechercher'
 		},
 		{
-			title: 'Configurer les mails à destination des clients',
-			href: currentPath + '/mails/'
+			title: 'Supprimer un client',
+			href: currentPath + '/supprimer'
 		},
 		{
-			title: 'Configurer les SMS à destination des clients',
-			href: currentPath + '/sms/'
+			title: 'Fusionner des clients en doublons',
+			href: currentPath + '/fusionner-doublons'
+		},
+		{
+			title: 'Envoyer un SMS à un client',
+			href: currentPath + '/sms'
 		}
 	];
 </script>

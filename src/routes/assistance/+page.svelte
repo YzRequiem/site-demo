@@ -1,43 +1,40 @@
 <script>
-import ThreeIcons from '$lib/components/ThreeIcons.svelte';
+	import ThreeIcons from '$lib/components/ThreeIcons.svelte';
+	import { page } from '$app/stores';
 
-let header3icons = {
-		title: 'Besoin d\'aide ?',
-		content:
-			" lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
-};
-	
-let tabIcons = [
+	let header3icons = {
+		title: "Besoin d'aide ?",
+		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+	};
+
+	let currentPath = $page.url.pathname;
+
+	let tabIcons = [
 		{
 			title: 'Installation',
-            content: "",
-			href : '/assistance/installation',
+			href: currentPath + '/installation',
 			src: '/svg/install.svg',
 			alt: 'Installation',
-			width : 'w-16 h-16',
+			width: 'w-16 h-16'
 		},
 		{
 			title: 'Configuration',
-            content: "",
-			href : '/assistance/configuration',
+			href: currentPath + '/configuration',
 			src: '/svg/gear.svg',
 			alt: 'Configuration',
-			width : 'w-16 h-16',
+			width: 'w-16 h-16'
 		},
 		{
 			title: 'Utilisation',
-            content: '',
-			href : '/assistance/utilisation',
+			href: currentPath + '/utilisation',
 			src: '/svg/user.svg',
 			alt: 'Utilisation',
-			width : 'w-16 h-16'
-		},
-];
-
+			width: 'w-16 h-16'
+		}
+	];
 </script>
 
+<!-- svelte-ignore missing-declaration -->
 <main class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
-
-    <ThreeIcons header={header3icons} iconsTab={tabIcons}  />
-
+	<ThreeIcons header={header3icons} iconsTab={tabIcons} />
 </main>

@@ -18,24 +18,32 @@
 
 	let tabIcons = [
 		{
-			title: "Se connecter à l'application pour la première fois",
-			href: currentPath + '/connexion'
+			title: 'Configurer les stocks',
+			href: currentPath + '/configurer'
 		},
 		{
-			title: 'Configurer les stocks, franchises et entités',
-			href: currentPath + '/stocks/'
+			title: 'Créer une déclinaison',
+			href: currentPath + '/declinaison'
 		},
 		{
-			title: 'Configurer les règles paniers',
-			href: currentPath + '/regles-paniers/'
+			title: 'Créer un produit',
+			href: currentPath + '/produit'
 		},
 		{
-			title: 'Configurer les mails à destination des clients',
-			href: currentPath + '/mails/'
+			title: 'Créer un arrivage',
+			href: currentPath + '/arrivage'
 		},
 		{
-			title: 'Configurer les SMS à destination des clients',
-			href: currentPath + '/sms/'
+			title: 'Créer un transfert',
+			href: currentPath + '/transfert'
+		},
+		{
+			title: 'Créer un réassort',
+			href: currentPath + '/reassort'
+		},
+		{
+			title: 'Gérer les inventaires',
+			href: currentPath + '/inventaire'
 		}
 	];
 </script>
