@@ -1,5 +1,5 @@
 <script>
-	import Tutoriel from '$lib/components/tutoriel.svelte';
+	import Tutoriel from '$lib/components/Tutoriel.svelte';
 </script>
 
 <main class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">

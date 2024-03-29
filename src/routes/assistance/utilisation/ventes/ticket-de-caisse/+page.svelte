@@ -1,5 +1,5 @@
 <script>
-	import Tutoriel from '$lib/components/tutoriel.svelte';
+	import Tutoriel from '$lib/components/Tutoriel.svelte';
 	export let pdf = {
 		link: '/pdf/Imprimer ticket de caisse.pdf',
 		fileName: 'Imprimer ticket de caisse.pdf'
