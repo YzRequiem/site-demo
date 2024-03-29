@@ -1,7 +1,7 @@
 <script>
 	import Tutoriel from '$lib/components/tutoriel.svelte';
 	export let pdf = {
-		link: "Création d'un utilisateur et première connexion.pdf",
+		link: "/pdf/Création d'un utilisateur et première connexion.pdf",
 		fileName: "Création d'un utilisateur et première connexion.pdf"
 	};
 </script>
