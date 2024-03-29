@@ -10,16 +10,15 @@
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
 	let header3icons = {
-		title: pageName,
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: pageName
 	};
 
 	let currentPath = $page.url.pathname;
 
 	let tabIcons = [
 		{
-			title: 'Configurer les stocks',
-			href: currentPath + '/configurer'
+			title: 'Configurer les fournisseurs',
+			href: currentPath + '/fournisseur'
 		},
 		{
 			title: 'Créer une déclinaison',

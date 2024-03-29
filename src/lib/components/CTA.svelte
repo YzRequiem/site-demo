@@ -6,23 +6,13 @@
 	export let borderImage = 'sm:rounded-tl-[30px] md:rounded-tl-[60px]';
 	export let layout = 'xl:flex-row';
 	export let buttonAttributs = {};
-	export let title = 'Notre application offre une fiche produit qui permet de centraliser toutes les informations importantes sur vos produits. Elle permet notamment de :';
+	export let title =
+		'Notre application offre une fiche produit qui permet de centraliser toutes les informations importantes sur vos produits. Elle permet notamment de :';
 	export let tabList = [];
-
-	// export let tabCTA =
-
-	//     {
-	//         title: 'Maitrisez vos stocks',
-	//         content: "Toute la chaîne de vie d'un produit au sein de l'entreprise est gérée par l'application, de son arrivée au dépôt à sa remise au client lors de la finalisation de la vente.Grâce à un algorithme de prévision des besoins basé sur les statistiques de ventes des semaines précédentes, les commandes sont optimisées au plus juste pour les semaines à venir. De fait, tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes, vous pourrez vous targuer d'avoir à disposition l'outil calculant vos besoins au plus juste, comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de difficultés d'approvisionnement. Ainsi, vous éviterez facilement les immobilisations financières inutiles et les ruptures dans le même temps ! ",
-	//         src: '/entrepot.jpg',
-	//         alt: 'Entrepot',
-	// 		buttonHref: '#',
-	// 		buttonText: 'Get Started Today'
-	//     }
 </script>
 
 <section
-	class="overflow-hidden bg-transparent flex {layout} flex-col justify-evenly sm:items-center py-5"
+	class=" overflow-hidden bg-transparent flex {layout} flex-col justify-evenly sm:items-center py-5"
 >
 	<div class="p-8 md:p-12 lg:px-16 lg:py-24">
 		<div class="mx-auto max-w-xl text-center sm:text-left">
@@ -30,7 +20,7 @@
 				{tabCTA.title}
 			</h2>
 			{#if tabCTA.content}
-				<p class="hidden text-gray-500 md:mt-4 md:block dark:text-gray-400">
+				<p class=" text-gray-500 md:mt-4 md:block dark:text-gray-400">
 					{tabCTA.content}
 				</p>
 			{:else if tabList}

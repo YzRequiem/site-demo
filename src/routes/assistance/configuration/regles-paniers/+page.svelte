@@ -1,16 +1,16 @@
 <script>
 	import Tutoriel from '$lib/components/tutoriel.svelte';
 	export let pdf = {
-		link: '/pdf/ConfigurerlesmailsetlesSMS.pdf',
-		fileName: 'Installer le PDF'
+		link: '/pdf/Créer des règles paniers.pdf',
+		fileName: 'Créer des règles paniers.pdf'
 	};
 </script>
 
 <main class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
 	<Tutoriel
 		{pdf}
-		videoSrc="/videos/ConfigurationMailetSMS.mp4"
-		title="Installation MacOs"
-		texte="Pour installer le logiciel sur votre ordinateur, suivez les étapes suivantes."
+		$
+		title="Créer des règles paniers"
+		texte="Pour créer des règles paniers, suivez les étapes suivantes."
 	/>
 </main>

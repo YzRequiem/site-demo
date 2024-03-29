@@ -10,8 +10,7 @@
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
 	let header3icons = {
-		title: pageName,
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: pageName
 	};
 
 	let currentPath = $page.url.pathname;
@@ -34,20 +33,16 @@
 			href: currentPath + '/ticket-de-caisse'
 		},
 		{
-			title: 'Imprimer une facture',
-			href: currentPath + '/facture'
-		},
-		{
-			title: 'Echanger un produit',
+			title: 'Echanger ou rembourser un produit',
 			href: currentPath + '/echanger-produit'
-		},
-		{
-			title: 'Les ventes en attente',
-			href: currentPath + '/vente-en-attente'
 		},
 		{
 			title: 'Ajouter des commentaires de vente',
 			href: currentPath + '/commentaires'
+		},
+		{
+			title: 'Créer des challenges vendeurs',
+			href: currentPath + '/challenge-vendeurs'
 		}
 	];
 </script>

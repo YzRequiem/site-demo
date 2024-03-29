@@ -10,8 +10,7 @@
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
 	let header3icons = {
-		title: pageName,
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: pageName
 	};
 
 	let currentPath = $page.url.pathname;
@@ -22,19 +21,19 @@
 			href: currentPath + '/fond-de-caisse'
 		},
 		{
-			title: 'Effectuer une Clôture',
+			title: 'Effectuer une Clôture de journée',
 			href: currentPath + '/cloture'
 		},
 		{
-			title: 'Editer un journal de caisse',
-			href: currentPath + '/journal-de-caisse'
+			title: 'Editer un X de caisse',
+			href: currentPath + '/x-de-caisse'
 		},
 		{
 			title: 'Corriger une vente validée (modifier paiement)',
 			href: currentPath + '/correction-vente'
 		},
 		{
-			title: 'Gérer les factures',
+			title: 'Editer une facture et un récaputulatif de facture',
 			href: currentPath + '/factures'
 		}
 	];

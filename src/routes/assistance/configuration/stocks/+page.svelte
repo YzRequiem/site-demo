@@ -1,16 +1,16 @@
 <script>
 	import Tutoriel from '$lib/components/tutoriel.svelte';
 	export let pdf = {
-		link: '/pdf/ConfigurerlesmailsetlesSMS.pdf',
-		fileName: 'Installer le PDF'
+		link: '/pdf/Configurer les stocks, franchises, entités et la facturation.pdf',
+		fileName: 'Configurer les stocks, franchises, entités et la facturation.pdf'
 	};
 </script>
 
 <main class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
 	<Tutoriel
 		{pdf}
-		videoSrc="/videos/ConfigurationMailetSMS.mp4"
-		title="Installation MacOs"
-		texte="Pour installer le logiciel sur votre ordinateur, suivez les étapes suivantes."
+		src="https://www.youtube.com/embed/zHhb5taphQQ?si=emwC3A-MYwo6T2WZ"
+		title="Configurer les stocks, franchises, entités et la facturation"
+		texte="Pour configurer les stocks, franchises, entités et la facturation, suivez les étapes suivantes."
 	/>
 </main>

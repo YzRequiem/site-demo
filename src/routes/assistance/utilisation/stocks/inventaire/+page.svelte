@@ -10,28 +10,23 @@
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
 	let header3icons = {
-		title: pageName,
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: pageName
 	};
 
 	let currentPath = $page.url.pathname;
 
 	let tabIcons = [
 		{
-			title: 'Créer un inventaire',
-			href: currentPath + '/creer'
+			title: 'Demander un inventaire',
+			href: currentPath + '/demander'
 		},
 		{
 			title: 'Réaliser un inventaire',
 			href: currentPath + '/realiser'
 		},
 		{
-			title: 'Controler un inventaire',
-			href: currentPath + '/controler'
-		},
-		{
-			title: 'Demander un inventaire',
-			href: currentPath + '/demander'
+			title: 'Valider un inventaire',
+			href: currentPath + '/valider'
 		}
 	];
 </script>

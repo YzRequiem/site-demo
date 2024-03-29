@@ -10,8 +10,7 @@
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
 	let header3icons = {
-		title: pageName,
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: pageName
 	};
 
 	let currentPath = $page.url.pathname;
@@ -36,10 +35,6 @@
 		{
 			title: 'Fusionner des clients en doublons',
 			href: currentPath + '/fusionner-doublons'
-		},
-		{
-			title: 'Envoyer un SMS à un client',
-			href: currentPath + '/sms'
 		}
 	];
 </script>

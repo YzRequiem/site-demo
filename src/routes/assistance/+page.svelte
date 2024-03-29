@@ -3,8 +3,7 @@
 	import { page } from '$app/stores';
 
 	let header3icons = {
-		title: "Besoin d'aide ?",
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: "Besoin d'aide ?"
 	};
 
 	let currentPath = $page.url.pathname;

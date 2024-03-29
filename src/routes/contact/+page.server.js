@@ -46,7 +46,7 @@ export const actions = {
 		const form = await superValidate(event, newContactSchema);
 		const messageData = {
 			from: form.data.email,
-			to: 'leo.sallier@silver-smok.com',
+			to: 'contact@silver-stock.fr',
 			subject: 'Application Contact',
 			text:
 				"Nom de L'expéditeur  : " +

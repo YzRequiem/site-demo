@@ -10,19 +10,18 @@
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
 
 	let header3icons = {
-		title: pageName,
-		content: ' lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+		title: pageName
 	};
 
 	let currentPath = $page.url.pathname;
 
 	let tabIcons = [
 		{
-			title: "Se connecter à l'application pour la première fois",
+			title: "Création d'un utilisateur et première connexion",
 			href: currentPath + '/connexion'
 		},
 		{
-			title: 'Configurer les stocks, franchises et entités',
+			title: 'Configurer les stocks, franchises, entités et la facturation',
 			href: currentPath + '/stocks/'
 		},
 		{
@@ -30,12 +29,8 @@
 			href: currentPath + '/regles-paniers/'
 		},
 		{
-			title: 'Configurer les mails à destination des clients',
-			href: currentPath + '/mails/'
-		},
-		{
-			title: 'Configurer les SMS à destination des clients',
-			href: currentPath + '/sms/'
+			title: 'Configurer les mails et les SMS à destination des clients',
+			href: currentPath + '/mailsetsms/'
 		}
 	];
 </script>
