@@ -11,7 +11,7 @@
 	let header3icons = {
 		title: 'Gérez votre commerce en toute simplicité',
 		content:
-			'Notre application répond aux besoins spécifiques des propriétaires de commerce en leur offrant un système de gestion des stocks efficace, des statistiques de ventes en temps réel et un optimisateur de vente performant. Gérez votre commerce en toute simplicité grâce à notre solution complète.'
+			'Notre application répond aux besoins spécifiques des propriétaires de commerce en leur offrant un système de gestion des stocks efficace, des statistiques de ventes en temps réel et un optimisateur de ventes performant. Gérez votre commerce en toute simplicité grâce à notre solution complète.'
 	};
 
 	let tabIcons = [
@@ -39,9 +39,9 @@
 	];
 
 	let ctaStocks = {
-		title: 'Maitrisez vos stocks',
+		title: 'Maîtrisez vos stocks',
 		content:
-			"Au sein de l'entreprise, toute la chaîne de vie d'un produit, de son arrivée au dépôt jusqu'à sa remise au client, est gérée par l'application. Grâce à un algorithme de prévision des besoins, basé sur les statistiques de ventes des semaines précédentes, les commandes sont optimisées au plus juste pour les semaines à venir. Tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes, vous pourrez vous targuer d'avoir à disposition l'outil calculant vos besoins au plus juste, comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de difficultés d'approvisionnement. Ainsi, vous éviterez facilement les immobilisations financières inutiles et les ruptures.",
+			"Au sein de l'entreprise, toute la chaîne de vie d'un produit, de son arrivée au dépôt jusqu'à sa remise au client, est gérée par l'application. Grâce à un algorithme de prévision des besoins, basé sur les statistiques de ventes, les commandes sont optimisées au plus juste pour les semaines à venir. Tandis que la tendance est au surstock, ou à la rupture momentanée dans certaines enseignes, vous pourrez vous targuer d'avoir à disposition l'outil calculant vos besoins au plus juste, comprenant un léger stock tampon en prévision de hausses de ventes inattendues ou de difficultés d'approvisionnement. Ainsi, vous éviterez facilement les immobilisations financières inutiles et les ruptures.",
 		src: '/entrepot.jpg',
 		alt: 'Entrepot'
 	};
@@ -55,7 +55,7 @@
 	};
 
 	let communication = {
-		title: 'Communiquez avec vos equipes !',
+		title: 'Communiquez avec vos équipes !',
 		content:
 			"Communiquez et partagez des documments avec vos équipes en temps réel à partir de notre appareil de communication interne à l'application. ",
 		src: '/comunicate.jpg',

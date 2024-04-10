@@ -44,7 +44,7 @@
 			component: IconBuildingStore
 		},
 		{
-			title: 'Gestion de produits',
+			title: 'Gestion de produit',
 			content:
 				'Ajoutez, modifiez et supprimez facilement vos produits pour maintenir une base de données à jour.',
 			href: '#produits',
@@ -106,7 +106,7 @@
 
 	/*----Section Management------*/
 
-	let titleManagement = "Management d'equipes";
+	let titleManagement = "Management d'équipes";
 
 	let buttonVente = {
 		href: '/contact',
@@ -124,7 +124,7 @@
 	};
 
 	let communication = {
-		title: 'Communiquez avec vos equipes !',
+		title: 'Communiquez avec vos équipes !',
 		content:
 			"La messagerie interne de l'application vous permet de communiquer avec vos équipes en temps réel. Vous pouvez envoyer des messages à vos vendeurs, managers, administrateurs et bien plus encore.",
 		src: '/message.jpg',
@@ -135,7 +135,7 @@
 
 	/*----Section Produits----*/
 
-	let titleProduct = 'Gestion de produits';
+	let titleProduct = 'Gestion de produit';
 
 	let borderImage = 'rounded-lg';
 
@@ -182,7 +182,7 @@
 
 	let titleClient = 'Gestion de clients';
 	let clientIntro =
-		"L'un des objectifs de cette application est aussi de permettre une relation client personnalisée, et de pouvoir mettre en place un suivi de la clientèle. Grâce à des fiches clients complètes, nous pouvons voir au moment de la vente quels sont les produits achetés auparavant par le consommateur, et ainsi lui proposer ces derniers produits, ou des produits en relation susceptibles de lui plaire.";
+		"L'un des objectifs de cette application est aussi de permettre une relation client personnalisée, et de pouvoir mettre en place un suivi de la clientèle. Grâce à des fiches clients complètes, nous pouvons voir au moment de la vente quels sont les produits achetés auparavant par le consommateur, et ainsi lui proposer ces derniers, ou des articles en relation susceptibles de lui plaire.";
 
 	let ficheClient = {
 		title: 'Fiche Client',

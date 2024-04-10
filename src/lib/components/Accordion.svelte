@@ -6,7 +6,7 @@
 
 	let titleStats = 'Les Statistiques';
 	let statIntro =
-		"Synthétisme et efficacité sont les maîtres mots pour une description du tableau de bord. Quelle que soit la taille de votre entreprise, vous trouverez sur le tableau de bord tous les indicateurs importants pour vos analyses et prises de décisions. Grâce au « tout-en-un » proposé par notre application Silver-Stock, le tableau de bord se consulte en un coup d'œil. Un panel statistique des plus complet s'offre à vous avec une facilité de lecture ainsi qu'une intuitivité et réactivité remarquable. Du chiffre d'affaires au nombre de nouveaux clients, en passant par le panier moyen et le classement des meilleures ventes en direct (et bien d'autres indicateurs), la puissance synthétisée des tendances globales de votre activité se trouve ici.";
+		"Synthétisme et efficacité sont les maîtres mots pour une description du tableau de bord. Quelle que soit la taille de votre entreprise, vous trouverez sur le tableau de bord tous les indicateurs importants pour vos analyses et prises de décisions. Grâce au « tout-en-un » proposé par notre application SilverStock, le tableau de bord se consulte en un coup d'œil. Un panel statistique des plus complet s'offre à vous avec une facilité de lecture ainsi qu'une intuitivité et réactivité remarquable. Du chiffre d'affaires au nombre de nouveaux clients, en passant par le panier moyen et le classement des meilleures ventes en direct (et bien d'autres indicateurs), la puissance synthétisée des tendances globales de votre activité se trouve ici.";
 	export let imagesTabAccordion = [];
 
 	export let sectionsTabAccordion = [];

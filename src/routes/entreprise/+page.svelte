@@ -2,9 +2,9 @@
 	import Cta from '$lib/components/CTA.svelte';
 
 	let presentation = {
-		title: "Silver-Stock, qu'est-ce que c'est ?",
+		title: "SilverStock, qu'est-ce que c'est ?",
 		content:
-			"Issue d'un travail mené depuis 2015, l'application Silver-Stock est aujourd'hui à son stade le plus abouti et le plus fonctionnel. Développée par la synergie créée lors de brainstorming hebdomadaires entre les différents acteurs de deux entreprises de cigarette électronique (équipes de ventes, préparateurs de commandes, responsables des achats, pôle managérial...) et l'équipe de développement, ce projet s'est inscrit dans la modernisation de nos outils de gestion, jusqu'à en devenir un élément central et essentiel, nous ayant permis de nous démarquer des autres entreprises du secteur.",
+			"Issue d'un travail mené depuis 2015, l'application SilverStock est aujourd'hui à son stade le plus abouti et le plus fonctionnel. Développée par la synergie créée lors de brainstorming hebdomadaires entre les différents acteurs de deux entreprises de cigarette électronique (équipes de ventes, préparateurs de commandes, responsables des achats, pôle managérial...) et l'équipe de développement, ce projet s'est inscrit dans la modernisation de nos outils de gestion, jusqu'à en devenir un élément central et essentiel, nous ayant permis de nous démarquer des autres entreprises du secteur.",
 		src: '/iconSilverBig.webp',
 		alt: 'Vente'
 	};
@@ -17,7 +17,7 @@
 
 <header class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
 	<div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-		<h1 class="text-3xl font-bold py-5">Notre histoire - Silver-Stock</h1>
+		<h1 class="text-3xl font-bold py-5">Notre histoire - SilverStock</h1>
 	</div>
 </header>
 <main class="dark:bg-gray-900 dark:text-white shadow-lg dark:shadow-white">
@@ -41,7 +41,7 @@
 						J’ai voulu, à travers notre histoire et nos investissements, à travers notre ancrage
 						bleu blanc rouge, apporter à la cigarette électronique toutes ses lettres de noblesse.
 					</p>
-					<p>Silver-Stock a créé d'infinies possibilités que nous n'avions pas avant.</p>
+					<p>SilverStock a créé d'infinies possibilités que nous n'avions pas avant.</p>
 
 					<p>Mossadegh AFRIT - Président Directeur Général</p>
 				</div>
@@ -103,7 +103,7 @@
 							</h1>
 
 							<p class="mt-3 text-gray-500 dark:text-gray-300">
-								Nous avons mis l'accent lors du développement de Silver-Stock sur une multitude
+								Nous avons mis l'accent lors du développement de SilverStock sur une multitude
 								d'outils d’analyses statistiques. En temps réel ou sur une période donnée, nous
 								pouvons avoir à disposition visuelle l'ensemble des ventes réalisées au sein de nos
 								boutiques, les volumes de sortie de chacun des produits de notre catalogue, le
@@ -140,14 +140,14 @@
 							</h1>
 
 							<p class="mt-3 text-gray-500 dark:text-gray-300">
-								Silver-Stock intègre également un module ERP complet pour vous aider à gérer
+								SilverStock intègre également un module ERP complet pour vous aider à gérer
 								efficacement l'ensemble de vos opérations quotidiennes. Grâce à cet outil, vous
 								pourrez gérer votre comptabilité, vos achats, vos stocks, votre production, vos
 								ressources humaines et bien plus encore. Vous pourrez ainsi suivre en temps réel vos
 								indicateurs de performance, planifier votre production, gérer vos commandes
 								fournisseurs, suivre l'évolution de vos coûts et optimiser votre rentabilité. Avec
-								Silver-Stock, vous disposerez d'un outil de gestion puissant et flexible pour
-								piloter votre entreprise en toute sérénité.
+								SilverStock, vous disposerez d'un outil de gestion puissant et flexible pour piloter
+								votre entreprise en toute sérénité.
 							</p>
 						</div>
 					</div>

@@ -29,11 +29,11 @@
 				/>
 
 				<div class="p-8 sm:p-16 lg:p-24">
-					<h2 class="text-2xl font-bold sm:text-3xl dark:text-slate-100">
+					<h2 class="text-2xl font-bold sm:text-3xl text-slate-100">
 						Une gestion évidente de vos Gammes Liquides
 					</h2>
 
-					<p class="mt-4 text-gray-600">
+					<p class="mt-4 text-whitetext-gray-900 font-bold">
 						Recherchez et gérez vos gammes liquides de manière simple avec un système de tag.
 						Cumulez les tags pour affiner vos recherches et trouver rapidement les produits que vous
 						cherchez. La gestion de vos gammes liquides n'a jamais été aussi simple et boostera la

@@ -2,7 +2,7 @@
 	export let tabCTA = {
 		title: 'Informations en temps réel',
 		content:
-			' Pilotez en temps réel votre activité avec Silver-Stock. Une caisse intelligente avec des statistiques complètes basées sur toutes les données croisées pour une prise de décision simplifiée. Mais surtout, vous pouvez consulter vos chiffres, n’importe quand et n’importe où, à partir de tout type de matériel : un PC, un Mac ou une tablette.',
+			' Pilotez en temps réel votre activité avec SilverStock. Une caisse intelligente avec des statistiques complètes basées sur toutes les données croisées pour une prise de décision simplifiée. Mais surtout, vous pouvez consulter vos chiffres, n’importe quand et n’importe où, à partir de tout type de matériel : un PC, un Mac ou une tablette.',
 		src: '/statistics.png',
 		alt: 'Entrepot'
 	};
