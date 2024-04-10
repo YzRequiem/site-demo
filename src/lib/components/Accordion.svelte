@@ -5,7 +5,8 @@
 	import HeadingParagraph from './HeadingParagraph.svelte';
 
 	let titleStats = 'Les Statistiques';
-	let statIntro ="Synthétisme et efficacité sont les maîtres mots pour une description du tableau de bord. Quelle que soit la taille votre entreprise, vous trouverez sur le tableau de bord tous les indicateurs importants pour vos prises de décision et d'analyse. Grâce au « tout-en-un » proposé par notre application Silver-Stock, le tableau de bord se consulte en un coup d'oeil, et un panel statistique des plus complets s'offre à vous avec une facilité de lecture et une intuitivité remarquable. Du chiffre d'affaires au nombre de nouveaux clients, en passant par le panier moyen et le classement des meilleures ventes en direct (et bien d'autres indicateurs), la puissance synthétisée des tendances globales de votre activité se trouve ici."
+	let statIntro =
+		"Synthétisme et efficacité sont les maîtres mots pour une description du tableau de bord. Quelle que soit la taille de votre entreprise, vous trouverez sur le tableau de bord tous les indicateurs importants pour vos analyses et prises de décisions. Grâce au « tout-en-un » proposé par notre application SilverStock, le tableau de bord se consulte en un coup d'œil. Un panel statistique des plus complet s'offre à vous avec une facilité de lecture ainsi qu'une intuitivité et réactivité remarquable. Du chiffre d'affaires au nombre de nouveaux clients, en passant par le panier moyen et le classement des meilleures ventes en direct (et bien d'autres indicateurs), la puissance synthétisée des tendances globales de votre activité se trouve ici.";
 	export let imagesTabAccordion = [];
 
 	export let sectionsTabAccordion = [];
@@ -15,16 +16,12 @@
 	function updateSelectedImage(index) {
 		return (selectedImage = index);
 	}
-
-
-
 </script>
 
 <section id="statistiques" class="flex justify-center mt-20">
-	<div class="lg:w-8/12 ">
+	<div class="lg:w-8/12">
 		<HeadingTitle title={titleStats} />
-		<HeadingParagraph content = {statIntro} />
-
+		<HeadingParagraph content={statIntro} />
 	</div>
 </section>
 <section class="w-full my-5 flex items-center justify-center py-5">
@@ -42,12 +39,11 @@
 									</p>
 								</AccordionItem>
 							</div>
-						{:else}									
-						
-						<div on:click={() => updateSelectedImage(index)} on:keydown>
-							<AccordionItem class="!rounded-none ">
-								<span slot="header">{section.title}</span>
-								
+						{:else}
+							<div on:click={() => updateSelectedImage(index)} on:keydown>
+								<AccordionItem class="!rounded-none ">
+									<span slot="header">{section.title}</span>
+
 									<p class="mb-2 text-gray-500 dark:text-gray-400">
 										{section.content}
 									</p>
