@@ -4,6 +4,7 @@
 	export let src;
 	export let pdf = {};
 	export let downloadLink;
+	export let dl2;
 </script>
 
 <section class="flex flex-col gap-10 justify-center items-center p-10">
@@ -49,6 +50,24 @@
 			>
 				Téléchargez l'application
 			</a>
+			<a
+				href={dl2}
+				class="inline-block rounded bg-[#BE0562] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#2594E4] focus:outline-none focus:ring focus:ring-yellow-400"
+				rel="noopener noreferrer"
+			>
+				Téléchargez l'application 2</a
+			>
+		</article>
+	{/if}
+	{#if dl2}
+		<article>
+			<a
+				href={dl2}
+				class="inline-block rounded bg-[#BE0562] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#2594E4] focus:outline-none focus:ring focus:ring-yellow-400"
+				rel="noopener noreferrer"
+			>
+				Téléchargez l'application 2</a
+			>
 		</article>
 	{/if}
 </section>
