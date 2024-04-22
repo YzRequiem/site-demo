@@ -11,5 +11,6 @@
 		{pdf}
 		title="Installation MacOs"
 		texte="Pour installer le logiciel sur votre ordinateur, suivez les étapes suivantes."
+		downloadLink="https://github.com/Silver-Smok/silverstock-electron-app/releases/download/v1.0.2/SilverStock.dmg"
 	/>
 </main>

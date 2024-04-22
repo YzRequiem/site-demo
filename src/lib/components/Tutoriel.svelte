@@ -3,6 +3,7 @@
 	export let texte;
 	export let src;
 	export let pdf = {};
+	export let downloadLink;
 </script>
 
 <section class="flex flex-col gap-10 justify-center items-center p-10">
@@ -36,6 +37,17 @@
 				rel="noopener noreferrer"
 			>
 				Téléchargez le pdf
+			</a>
+		</article>
+	{/if}
+	{#if downloadLink}
+		<article>
+			<a
+				class="inline-block rounded bg-[#BE0562] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#2594E4] focus:outline-none focus:ring focus:ring-yellow-400"
+				href={downloadLink}
+				rel="noopener noreferrer"
+			>
+				Téléchargez l'application
 			</a>
 		</article>
 	{/if}

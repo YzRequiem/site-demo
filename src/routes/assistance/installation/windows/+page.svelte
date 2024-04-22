@@ -10,5 +10,6 @@
 			link: '/pdf/Installation Silver Stock sur Windows.pdf',
 			fileName: 'Installation Silver Stock sur Windows.pdf'
 		}}
+		downloadLink="https://github.com/Silver-Smok/silverstock-electron-app/releases/download/v1.0.2/SilverStock-1.0.2-Setup.exe"
 	/>
 </main>
