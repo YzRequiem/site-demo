@@ -8,6 +8,7 @@
 		.filter((segment) => segment !== '')
 		.pop();
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
+	pageName = pageName.replace(/-/g, ' ');
 
 	let header3icons = {
 		title: pageName
@@ -18,21 +19,21 @@
 	let tabIcons = [
 		{
 			title: 'Gestion des stocks',
-			href: currentPath + '/stocks',
+			href: currentPath + '/gestion-des-stocks',
 			src: '/svg/box.svg',
 			alt: 'Stocks',
 			width: 'w-16 h-16'
 		},
 		{
 			title: 'Gestion des clients',
-			href: currentPath + '/clients',
+			href: currentPath + '/gestion-des-clients',
 			src: '/svg/user.svg',
 			alt: 'Clients',
 			width: 'w-16 h-16'
 		},
 		{
 			title: 'Gestion des ventes',
-			href: currentPath + '/ventes',
+			href: currentPath + '/gestion-des-ventes',
 			src: '/svg/creditCard.svg',
 			alt: 'Carte bleue',
 			width: 'w-16 h-16'

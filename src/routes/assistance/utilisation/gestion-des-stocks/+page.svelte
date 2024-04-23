@@ -18,24 +18,40 @@
 
 	let tabIcons = [
 		{
-			title: 'Gérer le fond de caisse',
-			href: currentPath + '/fond-de-caisse'
+			title: 'Créer un fournisseur',
+			href: currentPath + '/fournisseur'
 		},
 		{
-			title: 'Effectuer une Clôture de journée',
-			href: currentPath + '/cloture'
+			title: 'Créer une déclinaison',
+			href: currentPath + '/declinaison'
 		},
 		{
-			title: 'Editer un X de caisse',
-			href: currentPath + '/x-de-caisse'
+			title: 'Créer un produit',
+			href: currentPath + '/produit'
 		},
 		{
-			title: 'Corriger une vente validée (modifier paiement)',
-			href: currentPath + '/correction-vente'
+			title: 'Créer une catégorie',
+			href: currentPath + '/categories'
 		},
 		{
-			title: 'Editer une facture et un récaputulatif de facture',
-			href: currentPath + '/factures'
+			title: 'Créer une marque',
+			href: currentPath + '/marques'
+		},
+		{
+			title: 'Créer un arrivage',
+			href: currentPath + '/arrivage'
+		},
+		{
+			title: 'Créer un transfert',
+			href: currentPath + '/transfert'
+		},
+		{
+			title: 'Créer un réassort',
+			href: currentPath + '/reassort'
+		},
+		{
+			title: 'Gérer les inventaires',
+			href: currentPath + '/inventaire'
 		}
 	];
 </script>

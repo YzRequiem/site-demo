@@ -8,6 +8,7 @@
 		.filter((segment) => segment !== '')
 		.pop();
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
+	pageName = pageName.replace(/-/g, ' ');
 
 	let header3icons = {
 		title: pageName
@@ -17,32 +18,24 @@
 
 	let tabIcons = [
 		{
-			title: 'Configurer les fournisseurs',
-			href: currentPath + '/fournisseur'
+			title: 'Créer un client',
+			href: currentPath + '/creer'
 		},
 		{
-			title: 'Créer une déclinaison',
-			href: currentPath + '/declinaison'
+			title: 'Importer des clients',
+			href: currentPath + '/importer'
 		},
 		{
-			title: 'Créer un produit',
-			href: currentPath + '/produit'
+			title: 'Rechercher des clients',
+			href: currentPath + '/rechercher'
 		},
 		{
-			title: 'Créer un arrivage',
-			href: currentPath + '/arrivage'
+			title: 'Supprimer un client',
+			href: currentPath + '/supprimer'
 		},
 		{
-			title: 'Créer un transfert',
-			href: currentPath + '/transfert'
-		},
-		{
-			title: 'Créer un réassort',
-			href: currentPath + '/reassort'
-		},
-		{
-			title: 'Gérer les inventaires',
-			href: currentPath + '/inventaire'
+			title: 'Fusionner des clients en doublons',
+			href: currentPath + '/fusionner-doublons'
 		}
 	];
 </script>
