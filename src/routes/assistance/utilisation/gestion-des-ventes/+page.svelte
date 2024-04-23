@@ -8,6 +8,7 @@
 		.filter((segment) => segment !== '')
 		.pop();
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
+	pageName = pageName.replace(/-/g, ' ');
 
 	let header3icons = {
 		title: pageName
@@ -17,24 +18,32 @@
 
 	let tabIcons = [
 		{
-			title: 'Créer un client',
+			title: 'Réaliser une vente',
 			href: currentPath + '/creer'
 		},
 		{
-			title: 'Importer des clients',
-			href: currentPath + '/importer'
+			title: 'Ajouter un client à une vente',
+			href: currentPath + '/ajouter-un-client'
 		},
 		{
-			title: 'Rechercher des clients',
-			href: currentPath + '/rechercher'
+			title: 'Envoyer un reçu par email',
+			href: currentPath + '/email'
 		},
 		{
-			title: 'Supprimer un client',
-			href: currentPath + '/supprimer'
+			title: 'Imprimer un ticket de caisse',
+			href: currentPath + '/ticket-de-caisse'
 		},
 		{
-			title: 'Fusionner des clients en doublons',
-			href: currentPath + '/fusionner-doublons'
+			title: 'Echanger ou rembourser un produit',
+			href: currentPath + '/echanger-produit'
+		},
+		{
+			title: 'Ajouter des commentaires de vente',
+			href: currentPath + '/commentaires'
+		},
+		{
+			title: 'Créer des challenges vendeurs',
+			href: currentPath + '/challenge-vendeurs'
 		}
 	];
 </script>
