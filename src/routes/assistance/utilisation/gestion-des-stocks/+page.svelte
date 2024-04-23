@@ -51,7 +51,7 @@
 		},
 		{
 			title: 'Gérer les inventaires',
-			href: currentPath + '/inventaire'
+			href: currentPath + '/gerer-les-inventaires'
 		}
 	];
 </script>

@@ -8,6 +8,7 @@
 		.filter((segment) => segment !== '')
 		.pop();
 	pageName = pageName.charAt(0).toUpperCase() + pageName.slice(1);
+	pageName = pageName.replace(/-/g, ' ');
 
 	let header3icons = {
 		title: pageName
